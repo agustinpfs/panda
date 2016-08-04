@@ -1,0 +1,12 @@
+<header>
+    <h1 class="page-title">{{@blog.title}}</h1>
+    <h2 class="page-description">{{@blog.description}}</h2>    
+</header>
+
+<main role="main">
+  <!-- includes the post loop - partials/loop.hbs -->
+  {{> "loop"}}
+</main>
+
+<!-- Previous/next page links - displayed on every page -->
+{{pagination}}
