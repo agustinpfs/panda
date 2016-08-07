@@ -1,10 +1,8 @@
-<ul>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-	<li>klsdjhklsdjh</li>
-</ul>
+  <ul>
+     
+        {{#foreach tags}}
+            <li>
+              <a href="{{url}}" title="{{name}}" class="tag-{{id}}">{{name}}</a>
+            </li>  
+          {{/foreach}}
+    </ul>
