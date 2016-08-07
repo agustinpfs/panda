@@ -1,26 +1,6 @@
 {{!< default}}
 
-<header class="header">	
-	<h1 class="header-title">{{@blog.title}}</h1>
-	  <!--   <leyend class="header-description">{{@blog.description}}</leyend> -->
-	<div class="header-icon-menu">
-		<label for="menu">		
-			<span>MENU</span>
-		</label>
-		<input type="checkbox" class="check" id="menu">
-		{{navigation}}
-
-	</div>
-  <!-- 	<div class="list">
-  		<ul>
-  			<li><a href="#">link</a></li>
-  			<li><a href="#">link</a></li>
-  			<li><a href="#">link</a></li>
-  		</ul>
-  	</div> -->
-  	
-</header>
-		{{navigation}}
+{{> header}}
 
 <main class="main-index">
 
