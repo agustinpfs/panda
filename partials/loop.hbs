@@ -2,15 +2,19 @@
   <article class="{{post_class}}">
     <header class="post-header">
       <h2><a href="{{url}}">{{title}}</a></h2>
+      <small class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</small>
+      <a class="read-more" href="{{url}}">Entrar</a>
     </header>
-    <section class="post-excerpt">
+
+<!--     <section class="post-excerpt">
       <p>{{excerpt words="7"}}<br> <a class="read-more" href="{{url}}">Entrar</a></p>
-    </section>
+    </section> -->
     <footer class="post-meta">
       {{#if author.image}}<img src="{{author.image}}" alt="Author image" />{{/if}}
       {{author}}
       {{tags prefix=" en "}}
-      <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+      
     </footer>
+    <hr>
   </article>
  {{/foreach}}
