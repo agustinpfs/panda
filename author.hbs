@@ -2,25 +2,19 @@
 
 <!-- Everything inside the #author tags pulls data from the author -->
 {{#author}}
-  <header>
-    {{#if image}}
-      <img src="{{image}})" alt="{{name}}'s Picture" />
-    {/if}}
-  </header>
+
 
   <section class="author-profile">   
     <h1 class="author-title">{{name}}</h1>
-    {{#if bio}}<h2 class="author-bio">{{bio}}</h2>{{/if}}
-    
-    <div class="author-meta">
-      {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}
-     </div>
+
   </section>
 {{/author}}
 
-<main role="main">
-    <!-- includes the post loop - partials/loop.hbs -->
-    {{> "loop"}}
+<main class="List-main">
+
+  {{> "loop"}}
+  
+
 </main>
 
 <!-- Previous/next page links - displayed on every page -->

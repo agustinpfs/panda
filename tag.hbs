@@ -2,22 +2,16 @@
 {{!< default}}
 
 {{#tag}}
-  <header>
-    {{#if image}}
-      <img src="{{image}})" alt="{{name}}" />
-    {/if}}
-  </header>
-
   <section class="author-profile">   
     <h1>{{name}}</h1>
-      <h2>{{description}}</h2>
-    {{/if}}
   </section>
 {{/tag}}
 
-<main role="main">
-    <!-- includes the post loop - partials/loop.hbs -->
-    {{> "loop"}}
+<main class="List-main">
+
+  {{> "loop"}}
+  
+
 </main>
 
 <!-- Previous/next page links - displayed on every page -->
