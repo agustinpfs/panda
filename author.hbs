@@ -1,12 +1,9 @@
 {{!< default}}
 
-<!-- Everything inside the #author tags pulls data from the author -->
 {{#author}}
-
-
-  <section class="author-profile">   
-    <h1 class="author-title">{{name}}</h1>
-
+  <section class="List-author">   
+    <span>{{name}} <em>posts:</em></span>
+    <hr>
   </section>
 {{/author}}
 
@@ -17,5 +14,4 @@
 
 </main>
 
-<!-- Previous/next page links - displayed on every page -->
 {{pagination}}

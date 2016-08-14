@@ -1,20 +1,40 @@
 {{!< default}}
 
 {{#post}}
-              
-<article class="{{post_class}}">
-  <header class="post-header">
-    <h1 class="post-title">{{title}}</h1>
-    <section class="post-meta">
-      <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">
-        {{date format="DD MMMM YYYY"}}
-      </time> 
-      {{tags prefix=" en "}}
-    </section>  
-  </header>
-  <section class="post-content">
-    {{content}}
-  </section>
-</article>
+<main class="Post">
+  <article class="{{post_class}}">
+    <header class="post-header">
+    <div class="Post-top datetime="{{date format='YYYY-MM-DD'}}">
+      {{date format="DD MMMM YYYY"}}
+      {{tags}}
+      {{author}}
+    </div> 
+    <hr>
+      <h1 class="post-title">{{title}}</h1>
+      <section class="post-meta">
+       
+      </section>
+      <br>
+      <button class="Post-button">ver video</button>
+    </header>
+    <section class="post-content">
+      {{content}}
+    </section>
+    <button class="Post-button">ver video</button>
+    <div class="Post-next">
+      <div class="Post-next-left">
+        <a href="">anterior</a>
+        <i>objetos javascript</i>
+      </div>
+      <div class="Post-next-right">
+        <a href="">siguiente</a>
+        <i>métodos javascript</i>
+      </div>
+    </div>
+    <hr>
+    <h4>Enlaces relacionados:</h4>
+    <a href="">Definición Método Javascript</a>    
+  </article>
+</main>             
 {{/post}} 
 

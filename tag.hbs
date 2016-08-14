@@ -1,9 +1,9 @@
-<!-- Everything inside of #tag pulls data from the tag -->
 {{!< default}}
 
 {{#tag}}
-  <section class="author-profile">   
-    <h1>{{name}}</h1>
+  <section class="List-tag">   
+    <span>{{name}} <em>tag:</em></span>
+    <hr>
   </section>
 {{/tag}}
 
@@ -14,5 +14,4 @@
 
 </main>
 
-<!-- Previous/next page links - displayed on every page -->
 {{pagination}}
