@@ -14,11 +14,19 @@
 		right 0
 		top -190px
 		width 100%
-		// z-index -1		
+		border-bottom 1px solid grey
+		// z-index -1	
+		label 
+			position absolute
+			right: .2rem
+			bottom: .2rem
+			color: black
+			span 
+				font-size: 2rem	
 		&-nav
 			list-style none
 			width 100px
-			margin 1rem auto			
+			margin 1rem auto	
 			li 
 				margin-right 1rem
 				margin-bottom 1rem
@@ -26,12 +34,15 @@
 				color black
 			a:hover
 				margin-left .1	rem
+
 	.check
 		display none
 		&:checked~.Header-menu-mobil
 			top: 40px
 	span
 		margin-right .5rem
+	label
+		cursor pointer
 
 .gh-signin
 	display flex
