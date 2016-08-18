@@ -6,5 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Agustín Palmieri",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  },
+  "dependencies": {
+    "eslint": "^3.3.1"
+  }
 }

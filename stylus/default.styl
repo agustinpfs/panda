@@ -1,0 +1,80 @@
+.default 
+	&-body-mobile
+		display: block
+	&-main
+		
+		display none
+	// &-body 
+	// 	width 89%
+	&-navigation
+		.gh-signin
+			display flex
+			margin-top .5rem
+			margin-bottom 2rem
+			
+		.gh-input
+			border-bottom 1px solid grey
+			border-top 0
+			border-right 0
+			border-left 0
+			// height: 1.5rem
+			margin-right .2rem
+			margin-left .5rem
+			// background: #f2f2f2
+			
+			&::placeholder
+				color red		
+		.btn
+			background: #f2f2f2
+			border 0
+			font-size: .9rem
+			// text-decoration: underline
+			&:hover
+				text-decoration: underline
+		
+		// width 10%		
+		li 
+			list-style: none
+			background 	#999
+			padding .5rem
+			border-bottom 1px solid white
+		a 
+			text-decoration: none			
+			color black
+			font-weight: 500
+		a:hover
+			font-size: 95%
+			padding-left 1px
+			color #1d1d1d
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #ccc;
+	font-weight 200
+	font-size .8rem
+	}			
+
+@media (min-width: 600px)
+
+	.default 
+		&-body 
+			width 89%
+			
+		&-main
+			display: flex
+			justify-content: space-between
+		&-body-mobile
+			display: none
+		&-navigation
+			.gh-signin
+				display block
+				padding 1rem
+				margin-bottom 1rem
+				margin-top 1rem
+				background #f2f2f2
+			.btn 
+				color #cc0000
+				display: block
+				width 6rem
+				margin 0 auto
+				margin-top 1rem
+				background #ccc
