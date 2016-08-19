@@ -1,14 +1,17 @@
 {{#foreach posts}}
   <article class="{{post_class}}">
     <header class="post-header">
+    
       <h2><a href="{{url}}">{{title}}</a></h2>
-      <small class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}} </small> <span> | </span>
+      <small class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}} </small>
+{{!--        <span> | </span>
       <a class="read-more" href="{{url}}"> Entrar</a>
-    </header>
+ --}}    </header>
 
-<!--     <section class="post-excerpt">
-      <p>{{excerpt words="7"}}<br> <a class="read-more" href="{{url}}">Entrar</a></p>
-    </section> -->
+    <section class="post-excerpt">
+      <p>{{excerpt words="27"}}<a class="read-more" href="{{url}}">(...)</a></p>
+      <a class="read-more-enter" href="{{url}}">Entrar</a>
+    </section>
     <footer class="post-meta">
       {{#if author.image}}<img src="{{author.image}}" alt="Author image" />{{/if}}
       {{author}}
