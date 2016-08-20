@@ -1,10 +1,7 @@
-.Post
-	
+.Post	
 	article 
 		width: 90%
-		margin 0 auto
-
-		
+		margin 0 auto		
 	&-top 
 		width: 100%	
 		display: flex 
@@ -14,50 +11,76 @@
 		a 
 			&:hover
 				color #551a8b
-	&-button
-		padding: .2rem
-		color white
-		background-color green
-		// margin-bottom 1.5rem
-	&-next 
-		display flex
-		justify-content: space-between
-		color black
-		margin-bottom 1rem
-		a 
-			display block
+	.post-content 
+		position: relative
+		p 
+			em
+				a 
+					display block
+					text-align: right
+					// right .2rem
+					// top .2rem
+					color #cc0044
+		&-button
+			padding: .2rem
 			color white
-			text-decoration: underline !important
-		&-right 
-			text-align: right
+			background-color green
+			// margin-bottom 1.5rem
+		&_button-console
+			text-align center
+			padding: .2rem
+			color white
+			background-color #003366
+			width 100%
+			&:hover
+				background-color #00264d
+				color #4da6ff
+			
+		&_console
+			width: 100%			
+			text-align: center
+			display none
+			// overflow: scroll		
+			max-height: 400px
+			border-bottom: 1px solid grey
+			position: relative
+			transition 1s
 
-	hr 
-		margin-top 0
-.test-code
-	padding: .2rem
-	color white
-	background-color #80002a
-.post-content 
-	position: relative
-	p 
-		em
+			span
+				position: absolute
+				bottom .5rem
+				right .5rem
+				font-size 2rem
+				cursor pointer
+				transition 1s
+				small
+					font-size .8rem
+					margin-right .1rem
+			
+		&_next 
+			display flex
+			justify-content: space-between
+			color black
+			margin-bottom 1rem
 			a 
 				display block
+				color white
+				text-decoration: underline !important
+			&_right 
 				text-align: right
-				// right .2rem
-				// top .2rem
-				color #cc0044
 
-#my-element
-	z-index: 100
-	display: block !important
+		hr 
+			margin-top 0
 
-a#help
-	display none !important
-.controls
-	display none !important
-	background-color red
+	
+	
 
+
+// #my-element
+// 	max-height 100%
+// 	display: block !important
+// 	iframe
+// 		height 250px !important
 
 // 	var persona = {
 //     nombre : "Juan",
