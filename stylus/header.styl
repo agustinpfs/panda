@@ -6,7 +6,7 @@
 	color white	
 	font-family helvetica	
 	z-index 20
-	margin-bottom 2rem
+	margin-bottom 0
 	&-icon-menu
 		display block
 	h1
@@ -22,7 +22,7 @@
 		top -190px
 		width 100%
 		border-bottom 1px solid grey
-		// z-index -1	
+		z-index 17	
 		label 
 			position absolute
 			right: .2rem
@@ -45,7 +45,7 @@
 	.check
 		display none
 		&:checked~.Header-menu-mobil
-			top: 40px
+			top: 37px
 	span
 		margin-right .5rem
 	label
@@ -53,8 +53,10 @@
 
 .gh-signin
 	display flex
-	margin-top .5rem
-	// margin-bottom 2rem
+	// margin-top .5rem
+	margin-bottom 2rem
+	
+	background-color #ffcccc
 	
 .gh-input
 	border-bottom 2px solid grey
@@ -76,6 +78,7 @@
 		background: #f2f2f2
 @media (min-width: 600px)
 	.Header
+		margin-bottom 2rem
 		&-icon-menu
 			display none
 		&-subscribe

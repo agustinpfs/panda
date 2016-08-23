@@ -13,19 +13,30 @@
 				color #551a8b
 	.post-content 
 		position: relative
+		a 
+			text-decoration: underline
+			
 		p 
 			em
-				a 
+				a
+					text-decoration: none
 					display block
 					text-align: right
 					// right .2rem
 					// top .2rem
 					color #cc0044
+					// background-color #ffb3b3
+					// padding-right .2rem
+					&:hover
+						text-decoration: underline
 		&-button
+			display block
 			padding: .2rem
 			color white
 			background-color green
 			// margin-bottom 1.5rem
+			width 250px
+			margin 0 auto
 		&_button-console
 			text-align center
 			padding: .2rem
@@ -44,36 +55,40 @@
 			max-height: 400px
 			border-bottom: 1px solid grey
 			position: relative
-			transition 1s
+			transition 1s						 
+			&-mark 
+				background #ffff99
 
-			span
-				position: absolute
-				bottom .5rem
-				right .5rem
-				font-size 2rem
-				cursor pointer
-				transition 1s
-				small
-					font-size .8rem
-					margin-right .1rem
+		&_buttonx-console
+			position: absolute
+			bottom .5rem
+			right .5rem
+			font-size 2rem
+			cursor pointer
+			transition 1s
+			small
+				font-size .8rem
+				margin-right .1rem
 			
 		&_next 
 			display flex
 			justify-content: space-between
 			color black
 			margin-bottom 1rem
+			background-color #f2f2f2
 			a 
 				display block
-				color white
 				text-decoration: underline !important
-			&_right 
-				text-align: right
+			&-right
+				a 
+					text-align: right
 
 		hr 
 			margin-top 0
 
 	
-	
+#disqus_thread
+	margin-top 3rem	
 
 
 // #my-element
