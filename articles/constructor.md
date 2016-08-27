@@ -1,24 +1,60 @@
-## Constructor de objetos
+<em>[Editar este artículo en Github](# " target="_blank)</em>
 
-Es una función que nos servirá para crear muchos objetos.
-<script src="https://gist.github.com/agustinpfs/232b6b12807426925d22912c4e972d46.js"></script>
+# Constructor de objetos
 
-> Vemos que gracias al constructor creamos 2 objetos llamados "miHermana" y "miHermano".
-Podríamos crear la cantidad que quisieramos utilizando una misma estructura (constructor).
+==Es una función que nos servirá para crear muchos objetos.==
 
-<br>
+**Ejemplo:** 
+*Creamos 2 objetos llamados "miHermana" y "miHermano" ==*utilizando una misma estructura*== (constructor).*
 
-*`Despejemos dudas agregando conectores de colores al código:`*
-<br>
+<!-- box code whit highlight: /////////////////////////////////////////////////////////-->
 
-![alt text][logo]
+<pre data-start="1"><code class="line-numbers language-javascript">
+// Constructor "persona":
 
-[logo]: constructor-de-objetos.png "Constructor Objetos Javascript"
-> Este constructor es una función que crea *objetos de tipo "Persona"*.  
+function persona(nom, edad) {
+    this.nombre = nom;
+    this.edad = edad;   
+};
+
+var miHermana = new persona("María", 30);
+var miHermano = new persona("Leonardo", 47);
+
+// Ejecutamos:
+
+console.log(miHermano.nombre)
+
+// Nos devuelve:
+// Leonardo
+
+// Ejecutamos:
+
+console.log(miHermana.edad)
+
+// Nos devuelve:
+// 30
+
+//------------------------------------------------
+// ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/232b6b12807426925d22912c4e972d46.js
+</code></pre>
+
+<!-- End box code ///////////////////////////////////////////////////////////////////// -->
+
+*Despejemos dudas agregando conectores de colores al código:*
+<hr>
+
+![alt](http://localhost:2368/assets/images/constructor-de-objetos.png)
+<hr>
+**Explicación:**
+
+==Este constructor es una función que crea *objetos de tipo "persona."*==  
 
 * Tengamos en cuenta que los argumentos `(nom, edad)` en la linea 1 le podemos
  poner cualquier nombre. Lo relevante será el orden ya que corresponderán al mismo orden (posisión) que tienen los nuevos valores de las propiedades en las lineas 5 y 6 (conectores rojos y verdes).
- `nom, María y Leonardo -> posisión 1` `edad, 30 y 47 -> posisión 2`.
+
+ *nom(posisión 1) = María y Leonardo.*
+
+ *edad(posisión 2) = 30 y 47.*
 
 * Los argumentos deberán ser iguales a los valores de las propiedades (conectores azules). 
 
@@ -34,27 +70,43 @@ Un objeto llamado `"miHermana"` y otro llamado `"miHermano"`.
 
 * Las conectores marrones indican el nombre de la propiedad con la cual llamaremos cuando deseemos obtener valores de nuestro objeto. `nombre` `edad`.
 
-```
-Para reforzar tu aprendizaje, te animo a probar el código. Puedes agregarle más argumentos, cambiarlos de lugar o cualquier clase de experimentación que se te ocurra``` [Ir al editor de código](https://jsfiddle.net/Pandawebs/udt209hd/){:target="_blank"}
+<button class="post-content_button-console">Prueba el código ahora mismo</button>
 
+<div class="post-content_console">
 
-#### Uso
+<p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR.</span></p>
+    
+<div id="my-el" >
+<script src="https://embed.tonicdev.com" data-element-id="my-el" ></script>       
+function persona(nom, edad) {
+    this.nombre = nom;
+    this.edad = edad;   
+};
 
-Veamos como podemos implementar este ejemplo en una página web.
-Utilizamos *getElementById* e *innerHTML* para mostrar el resultado luego de hacer clic en un botón.
-`click en Result para ver el resultado`
+var miHermana = new persona("María", 30);
+var miHermano = new persona("Leonardo", 47);
 
-<!-- <iframe width="100%" height="600" src="https://jsfiddle.net/Pandawebs/s78cn1xk/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+console.log(miHermano.nombre)
 
- -->
+    </div>
+
+<span class="post-content_buttonx-console"><small>close</small>x</span>
+</div>
+<hr>
+**Ejemplo de uso en una Página Web**
+(click en Result para ver el resultado)
  <iframe width="100%" height="650" src="https://jsfiddle.net/Pandawebs/s78cn1xk/embedded/html,result/"  allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-cambiar valor de propiedades a través de un método
-Podemos crear un método para poder cambiar valores de propiedades del [objeto constructor](#)
+<hr>
 
-<pre data-start="0"><code class="line-numbers language-javascript">// Constructor 'alumno':
-function alumno(nombre, apellido, año, aula, materia) {
-    this.nombre = nombre;
+**Ejemplo:** Podemos crear un [método](http://localhost:2368/metodos-javascript/) para poder cambiar valores de propiedades del objeto constructor.
+
+<!-- start box code whit highlight: /////////////////////////////////////////////////////////-->
+
+<pre data-start="1"><code class="line-numbers language-javascript">
+// Constructor 'alumno' con método 'cambiarNombre':
+
+function alumno(nombre, apellido, año, aula, materia) {this.nombre = nombre;
     this.apellido = apellido;
     this.aula = aula;
     this.materia = materia;
@@ -75,9 +127,12 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 
 //------------------------------------------------
 // ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/7db2a08e573bef19e7ac31dce18cc90a#file-test-js
+
+<!-- End box code ///////////////////////////////////////////////////////////////////// -->
+
 </code></pre>
 Nota:
-`La función de la propiedad` _`cambiarNombre(linea 6)`_ `asigna el valor de los argumentos (nom, apell) a las propiedades nombre y apellido.`
+La función de la propiedad `cambiarNombre`_(linea 6)_ asigna el valor de los argumentos `(nom, apell)` a las propiedades nombre y apellido.
 
 <button class="post-content_button-console2">Prueba el código ahora mismo</button>
 
@@ -86,6 +141,9 @@ Nota:
 <p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR</span></p>
    <div id="my-ele" >
        <script src="https://embed.tonicdev.com" data-element-id="my-ele"></script>
+
+<!-- box code console: /////////////////////////////////////////////////////////-->
+
 function alumno(nombre, apellido, año, aula, materia) {
     this.nombre = nombre;
     this.apellido = apellido;
@@ -102,6 +160,9 @@ var mejorPromedio = new alumno("Agustin", "Palmieri", "segundo", 5, "javascript"
 mejorPromedio.cambiarNombre("José","Gomez");
 
 console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorPromedio.apellido);
+
+<!-- End box code ///////////////////////////////////////////////////////////////////// -->
+
 </div>
 
 <span class="post-content_buttonx-console2"><small>close</small>x</span>
@@ -110,5 +171,38 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 
 
 <hr>
-Siguiente:
-[*`Métodos de objetos`*](#)
+<em>[Editar este artículo en Github](# " target="_blank)</em>
+
+<hr>
+<div class="post-content_next">
+  <div class="post-content_next-left">
+    <a href="http://localhost:2368/metodos-javascript/">anterior</a>
+    <i>métodos javascript</i>
+  </div>
+  <div class="post-content_next-right">
+    <a href="http://localhost:2368/http://localhost:2368/constructor-de-objetos-javascript/-javascript/">siguiente</a>
+    <i>?????? javascript</i>
+  </div>
+</div>
+<hr>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//pandawebs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

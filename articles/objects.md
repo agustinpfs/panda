@@ -15,10 +15,13 @@
 
 - Consiguen un código más limpio al poder invocar los valores del objeto a través de variables.
 
-
 - Las *propiedades del objeto* se escriben como pares de *```clave : valor```* separados por comas:
 
-**Ejemplo:**
+- Podemos crear nuestros propios objetos.
+
+<hr>
+
+**Ejemplo. Creación de un Objeto llamado "persona":**
 <pre data-start="0"><code class="line-numbers language-javascript">// Objeto persona:
 var persona = {nombre:"Agustin", apellido:"Palmieri"};
 
@@ -47,7 +50,9 @@ console.log(persona["nombre"]);
 <div class="post-content_console">
 
 <p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR</span></p>
-    <div id="my-element" >
+    <div id="console-object" >
+    <script src="https://embed.tonicdev.com" data-element-id="console-object"></script>
+
         var persona = {  
             nombre : "Agustin",
             apellido : "Palmieri"
@@ -83,7 +88,9 @@ Son aquellos objetos suministrados por javascript, tales como:
 - Date
 - Math, etc.
 
-**Estos Objetos funcionan como [*Constructor de objetos*](#)**
+**Estos Objetos funcionan como [*Constructor de objetos*](http://localhost:2368/constructor-de-objetos-javascript/)**
+
+<small><i>Los [*constructores de objetos*](http://localhost:2368/constructor-de-objetos-javascript/) son los que mejor reflejan el poder de los Objetos.</i></small>
 
 <br>
 <br>
@@ -94,14 +101,36 @@ Son aquellos objetos suministrados por javascript, tales como:
 <hr>
 <div class="post-content_next">
   <div class="post-content_next-left">
-    <a href="">anterior</a>
-    <i>objetos javascript</i>
+    <a href=""></a>
+    <i>.</i>
   </div>
   <div class="post-content_next-right">
-    <a href="">siguiente</a>
+    <a href="http://localhost:2368/metodos-javascript/">siguiente</a>
     <i>métodos javascript</i>
   </div>
 </div>
 <hr>
-<h4>Enlaces relacionados:</h4>
-<a href="">Definición Método Javascript</a>
+### Enlaces relacionados:
+[*Constructor de objetos*](http://localhost:2368/constructor-de-objetos-javascript/)
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//pandawebs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

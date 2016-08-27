@@ -47,6 +47,8 @@
 			&:hover
 				background-color #00264d
 				color #4da6ff
+			// iframe
+			// 	max-height: 600px !important
 			
 		&_console
 		&_console2
@@ -54,15 +56,16 @@
 			text-align: center
 			display none
 			// overflow: scroll		
-			max-height: 400px
+			max-height: 300px
 			border-bottom: 1px solid grey
 			position: relative
-			transition 1s						 
+			transition 1s
+			&_console600px
+				max-height: 600px				 
 			&-mark 
 				background #ffff99
 		&_console2
 			max-height: 600px
-
 		&_buttonx-console
 		&_buttonx-console2
 			position: absolute
@@ -87,6 +90,7 @@
 			&-right
 				a 
 					text-align: right
+					margin-left auto
 
 		hr 
 			margin-top 0
@@ -94,7 +98,10 @@
 	
 #disqus_thread
 	margin-top 3rem	
-
+	
+[id^="my-e"]
+	iframe
+		max-height: 600px
 
 // #my-element
 // 	max-height 100%
