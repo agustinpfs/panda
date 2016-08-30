@@ -177,7 +177,7 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 <div class="post-content_next">
   <div class="post-content_next-left">
     <a href="http://localhost:2368/metodos-javascript/">anterior</a>
-    <i>métodos javascript</i>
+    <i>objetos javascript</i>
   </div>
   <div class="post-content_next-right">
     <a href="http://localhost:2368/http://localhost:2368/constructor-de-objetos-javascript/-javascript/">siguiente</a>

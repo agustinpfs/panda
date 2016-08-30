@@ -92,7 +92,7 @@ Ejemplos:
     <i>objetos javascript</i>
   </div>
   <div class="post-content_next-right">
-    <a href="http://localhost:2368/http://localhost:2368/constructor-de-objetos-javascript/-javascript/">siguiente</a>
+    <a href="http://localhost:2368/constructor-de-objetos-javascript">siguiente</a>
     <i>constructor javascript</i>
   </div>
 </div>
