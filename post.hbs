@@ -7,11 +7,13 @@
   <article class="{{post_class}}">
     <header class="post-header">
     <div class="Post-top datetime="{{date format='YYYY-MM-DD'}}">
-      {{date format="DD MMMM YYYY"}}
-      {{tags}}
+      {{date format="DD MMMM YYYY"}}      
       {{author}}
     </div> 
-    <hr>    
+    <hr>
+    <div class="Post-tags">
+      <small><em>Tags:</em>{{ tags }}</small>
+    </div>   
     </header>
     <section class="post-content">
       {{content}}     
