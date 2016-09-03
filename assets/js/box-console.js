@@ -4,6 +4,9 @@ document.querySelector('.post-content_buttonx-console').onclick = function() {hi
 document.querySelector('.post-content_button-console2').onclick = function() {showConsole2()};
 document.querySelector('.post-content_buttonx-console2').onclick = function() {hideConsole2()};
 
+document.querySelector('.post-content_button-console3').onclick = function() {showConsole3()};
+document.querySelector('.post-content_buttonx-console3').onclick = function() {hideConsole3()};
+
 // document.querySelector('.post-content_button-consolee').onclick = function() {showConsolee()};
 // document.querySelector('.post-content_buttonx-consolee').onclick = function() {hideConsolee()};
 
@@ -39,6 +42,20 @@ function showConsole2() {
 function hideConsole2() {
 	var y = document.querySelector('.post-content_console2');
 	y.style.display = 'none';
+}
+
+function showConsole3() {
+    var x = document.querySelector('.post-content_console3');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
+}
+
+function hideConsole3() {
+    var y = document.querySelector('.post-content_console3');
+    y.style.display = 'none';
 }
 
 // function showConsolee() {

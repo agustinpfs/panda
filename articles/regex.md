@@ -1,4 +1,6 @@
-## Expresiones Regulares Javascript(regex).
+<em>[Editar este artículo en Github](# " target="_blank)</em>
+
+# Expresiones Regulares Javascript(regex).
 
 Encuentran caracteres en un string según un patrón dado. 
 Se utilizan para búsqueda, modificación, extracción o reemplazo.
@@ -6,14 +8,19 @@ Se utilizan para búsqueda, modificación, extracción o reemplazo.
 **Principales métodos que pueden utilizar expresiones regulares:**
 
 * RegExp exec()
+
 * RegExp test()
+
 * String match()
+
 * String search()
+
 * [String replace()](#)
+
 * [String split()](#)
 
-**Sintaxis**
-*```/patrón/modificadores```*
+**Sintaxis:**
+`/patrón/modificadores`
 
 `/patrón/` Entre barras. Se compone de caracteres simples o caracteres simples más especiales.
 
@@ -27,10 +34,12 @@ Se utilizan para búsqueda, modificación, extracción o reemplazo.
 `/de$/` Busca la coincidencia exacta solo al final de un string.
 El dedo del con**_de_**
 
-`modificadores`(*flags*) Señalan el alcance de las búsquedas.
+`modificadores`(*flags*) Señalan el alcance de las búsquedas:
 
 * `g` Global, busca en todo el texto, de lo contrario se quedaría con la primer coincidencia.
+
 * `i` Insensible a mayúsculas y minúsculas, coincide con ambas.
+
 * `m` Multilinea, los caracteres ^ y $ buscan al principio(^) o al final($) de **todo el texto**, activado multilinea busca al principio(^) o al final($) de la **linea**.
 
 *Los modificadores **pueden combinarse**. `gi` `im` etc.*
@@ -49,9 +58,9 @@ Separados por barra vertical "|"
 
 **Ejemplos usando el métodos [replace()](#):**
 
-<script src="https://gist.github.com/agustinpfs/f2732c981cb928e2f1385dabc0a0f1cf.js"></script>
+<!-- start code snippet: -->
 
-<!-- Código del Gist: 
+<pre data-start="0"><code class="line-numbers language-javascript">
 
 // EJEMPLO 1:
 // Reemplaza las "a" por un punto "."
@@ -83,7 +92,15 @@ console.log(n);
 
 // (como no hay modificador "i" la A mayúscula no se reemplaza)
 
--->
+
+
+
+//------------------------------------------------
+// ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/f2732c981cb928e2f1385dabc0a0f1cf
+</code></pre>
+
+<!-- end code snippet: -->
+
 
 **Metacaracteres con barra invertida "&#92;" **
 Son caracteres con un significado especial. 
@@ -238,3 +255,47 @@ var n = str.replace(/1/g, "1º");
 [0-9]{3}-[0-9]{3} -[0-9]{4}
 
 agregar escape
+
+
+
+
+
+
+**Enlaces relacionados:**
+
+[*Enlaces relacionados*](#)
+
+<em>[Editar este artículo en Github](#)</em>
+
+<hr>
+<div class="post-content_next">
+  <div class="post-content_next-left">
+    <a href="http://localhost:2368/constructor-javascript">anterior</a>
+    <i>constructor javascript</i>
+  </div>
+  <div class="post-content_next-right">
+    <a href="http://localhost:2368/if-else-javascript">siguiente</a>
+    <i>if-else javascript</i>
+  </div>
+</div>
+<hr>
+
+<div id="disqus_thread"></div>
+
+<script>
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//pandawebs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

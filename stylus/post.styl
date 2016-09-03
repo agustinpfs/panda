@@ -49,6 +49,7 @@
 			margin 0 auto
 		&_button-console
 		&_button-console2
+		&_button-console3
 			text-align center
 			padding: .2rem
 			color white
@@ -62,11 +63,12 @@
 			
 		&_console
 		&_console2
+		&_console3
 			width: 100%			
 			text-align: center
 			display none
 			// overflow: scroll		
-			max-height: 300px
+			max-height: 500px
 			border-bottom: 1px solid grey
 			position: relative
 			transition 1s
@@ -78,6 +80,7 @@
 			max-height: 600px
 		&_buttonx-console
 		&_buttonx-console2
+		&_buttonx-console3
 			position: absolute
 			bottom .5rem
 			right .5rem
@@ -104,14 +107,16 @@
 
 		hr 
 			margin-top 0
-
+			
+#console-object
+	height 500px !important
 	
 #disqus_thread
 	margin-top 3rem	
 	
 [id^="my-e"]
 	iframe
-		max-height: 600px
+		max-height: 500px
 
 // #my-element
 // 	max-height 100%

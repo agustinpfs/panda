@@ -1,23 +1,27 @@
+<em>[Editar este artículo en Github](# " target="_blank)</em>
 
+Ejemplo Algoritmo Javascript.
+<hr>
 ## Encontrar la palabra más larga de un string.
-### Ejemplo Algoritmo Javascript.
+
 **Practicaremos:**
 
 * [Método Array split()](#)
+
 * [Propiedad Array length](#)
+
 * [Ciclo For](#)
+
 * [Condicional If](#)
 
-> Si no tienes claro estos conceptos te animo a que revises sus tutoriales.
+Si no tienes claro estos conceptos te animo a que revises sus tutoriales.
 
 **Código:**
+==Nos devuelve el apellido de mayor longitud: `Villalobos`==
 
-> Nos devuelve el apellido de mayor longitud: `Villalobos`
+<!-- start code snippet: -->
 
-<script src="https://gist.github.com/agustinpfs/f5589a087820b6adc063643fff0102af.js"></script>
-
-<!-- Código del Gist:
-
+<pre data-start="0"><code class="line-numbers language-javascript">
 var texto = 'Aguilera Pedraza Villalobos Zamorano';
 
 function palabraMasLarga(texto) {
@@ -37,16 +41,23 @@ console.log(palabraMasLarga(texto));
 // Resultado:
 // Villalobos
 
--->
+
+
+//------------------------------------------------
+// ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/f5589a087820b6adc063643fff0102af
+</code></pre>
+
+<!-- end code snippet: -->
 
 1. A la variable texto le asignamos el string con las palabras en que se realizará la búsqueda. En este ejemplo usamos apellidos.
  **linea 1** `var texto = 'Aguilera Pedraza Villalobos Zamorano'`
 
-2. Creamos la función `palabraMasLarga` y le asignamos la variable `texto`.
+2. Creamos la función `palabraMasLarga` y le asignamos la variable `texto` como argumento.
 **linea3** `function palabraMasLarga(texto) {
 			}`
 
-3. Debemos convertir las palabras en elementos de un array para poder [iterar](#) sobre ellas. Para ello utilizamos [split](#) indicándole donde se hará la división. En este caso usamos los espacios en blanco ya que es lo que divide las palabras. Lo hacemos con un espacio entre comillas `split(' ')`.
+3. Debemos convertir las palabras en elementos de un array para poder [iterar](#) sobre ellas.
+Para ello utilizamos [split](#) indicándole donde se hará la división. En este caso usamos los espacios en blanco ya que es lo que divide las palabras. Lo hacemos con un espacio entre comillas `split(' ')`.
 **linea4** `var palabra = texto.split(' ')`
 
 4. A raiz del paso anterior la variable `palabra` se le asigna el array: `[ 'Aguilera', 'Pedraza', 'Villalobos', 'Zamorano' ]`.
@@ -79,18 +90,82 @@ console.log(palabraMasLarga(texto));
 
 <hr>
 
-**`Despejemos dudas agregando conectores de colores al código:`**
-<br>
+**Despejemos dudas agregando conectores de colores al código:**
 
 
-![alt text][encuentra palabra mas larga javascript]
+![alt](http://localhost:2368/assets/images/algoritmo-palabra-larga.png)
 
-[encuentra palabra mas larga javascript]: algoritmo-palabra-larga.png "encuentra palabra mas larga javascript"
+<button class="post-content_button-console">Prueba el código ahora mismo</button>
 
-[Prueba el código!](https://jsfiddle.net/Pandawebs/7t4sL39e/){:target="_blank"}
+<div class="post-content_console">
+
+<p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR.</span></p>
+    
+<div id="my-elem" >
+  <script src="https://embed.tonicdev.com" data-element-id="my-elem" ></script>       
+  var texto = 'Aguilera Pedraza Villalobos Zamorano';
+
+  function palabraMasLarga(texto) {
+  	var palabra = texto.split(' ');
+  	var resultado = "";
+  	
+  	for (var i = 0; i < palabra.length; i++) {
+  		if (palabra[i].length > resultado.length) {
+  			resultado = palabra[i];
+  		};
+  	};
+  	  return resultado;
+  };
+
+  console.log(palabraMasLarga(texto));
+
+ </div>
+
+<span class="post-content_buttonx-console"><small>close</small>x</span>
+</div>
 
 <hr>
-
+<br>
+<br>
 **Veamos como podemos usar éste algoritmo en una aplicación web**
 
 <script async src="https://jsfiddle.net/Pandawebs/b4g4zjeb/embed/html,result/"></script>
+
+**Enlaces relacionados:**
+
+[*Enlaces relacionados*](#)
+
+<em>[Editar este artículo en Github](#)</em>
+
+<hr>
+<div class="post-content_next">
+  <div class="post-content_next-left">
+    <a href="http://localhost:2368/constructor-javascript">anterior</a>
+    <i>constructor javascript</i>
+  </div>
+  <div class="post-content_next-right">
+    <a href="http://localhost:2368/if-else-javascript">siguiente</a>
+    <i>if-else javascript</i>
+  </div>
+</div>
+<hr>
+
+<div id="disqus_thread"></div>
+
+<script>
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//pandawebs.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

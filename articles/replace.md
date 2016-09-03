@@ -59,7 +59,6 @@ Para que reemplaze todos los elementos que coincidan, usaremos una [expresión r
 <!-- start code snippet: -->
 
 <pre data-start="0"><code class="line-numbers language-javascript">
-
 var texto = "Agustín. Mi nombre es Agustín";
 var resultado = texto.replace(/Agustín/g, "Lucas");
 
@@ -75,7 +74,22 @@ console.log(resultado);
 </code></pre>
 
 <!-- end code snippet: -->
+<button class="post-content_button-console">Prueba el código ahora mismo</button>
 
+<div class="post-content_console">
+
+<p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR.</span></p>
+    
+<div id="my-elem" >
+<script src="https://embed.tonicdev.com" data-element-id="my-elem" ></script>       
+var texto = "Agustín. Mi nombre es Agustín";
+var resultado = texto.replace(/Agustín/g, "Lucas");
+
+console.log(resultado);
+    </div>
+
+<span class="post-content_buttonx-console"><small>close</small>x</span>
+</div>
 
 **Usando una función para modificar los elementos de búsqueda**
 
