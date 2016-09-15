@@ -3,21 +3,21 @@
 # Objetos Javascript
 *¿Qué son los Objetos en Javascript? Definición - Uso - Ejemplos - Video tutorial.*
 
-<button class="post-content-button">ver video</button>
+<button class="post-content-button">VER VIDEO AHORA</button>
 
 > *"La programación orientada a objetos puede considerarse como el diseño de software a través de un conjunto de objetos que cooperan"* -MDN
 
-- Todo en Javascript es un objeto (Functions, Arrays, Strings, etc..). Por ello se lo considera un lenguage orientado a objetos.
+- Casi todo en Javascript es un Objeto (Functions, Arrays, Maths, etc..). Por ello se lo considera un lenguage orientado a Objetos.
 
-- Son compartimientos de código que interactúan entre si y forman parte de un programa.
+- Los Objetos son compartimientos de código que interactúan entre si y forman parte de un programa.
 
 - Son variables que pueden contener varias propiedades con distintos valores y/o acciones a través de funciones([métodos](# " target="_blank)).
 
-- Consiguen un código más limpio al poder invocar los valores del objeto a través de variables.
+- Consiguen un código más limpio al poder invocar los valores del Objeto a través de variables.
 
-- Las *propiedades del objeto* se escriben como pares de *```clave : valor```* separados por comas:
+- Las *propiedades del Objeto* se escriben como pares de *```clave : valor```* separados por comas:
 
-- Podemos crear nuestros propios objetos.
+- Podemos crear nuestros propios Objetos.
 
 <hr>
 
@@ -45,7 +45,7 @@ console.log(persona["nombre"]);
 // ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/0cf16fa98029aafb59e5314f61e7233c
 </code></pre>
 
-<button class="post-content_button-console">Prueba el código ahora mismo</button>
+<button class="post-content_button-console">PRUEBA EL CÓDIGO AHORA MISMO</button>
 
 <div class="post-content_console">
 
@@ -71,15 +71,23 @@ console.log(persona["nombre"]);
 
 <iframe width="100%" height="600" src="https://jsfiddle.net/Pandawebs/4m2rzu8m/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<br>
+<hr>
+
+==**Nota:**==
+
+En este articulo hemos creado un sencillo "Objeto Literal". Esta manera de crear Objetos se la conoce como =="Inicializador de Objetos"==.
+
+Hay 2 maneras más de crear Objetos que se profundizan en otros artículos:
+
+* Con palabra clave/keyword =="new"==. `new Object()`. [ir al artículo](#)
+
+* Usando un ==Constructor de Objetos==. [ir al artículo](#)
 
 <hr>
 
-<br>
-
 ### Objetos Nativos
 
-Son aquellos objetos suministrados por javascript, tales como:
+Son aquellos Objetos suministrados por Javascript, tales como:
 
 - String
 - Number
@@ -88,16 +96,14 @@ Son aquellos objetos suministrados por javascript, tales como:
 - Date
 - Math, etc.
 
-**Estos Objetos funcionan como [*Constructor de objetos*](http://localhost:2368/constructor-de-objetos-javascript/)**
-
-<small><i>Los [*constructores de objetos*](http://localhost:2368/constructor-de-objetos-javascript/) son los que mejor reflejan el poder de los Objetos.</i></small>
+**Estos Objetos funcionan como [*Constructor de Objetos*](http://localhost:2368/constructor-de-objetos-javascript/)**
 
 <br>
 <br>
 
 <em>[Editar este artículo en Github](# " target="_blank)</em>
 <hr>
-<button class="post-content-button">video tutorial de este artículo</button>
+<button class="post-content-button">VER VIDEO TUTORIAL</button>
 <hr>
 <div class="post-content_next">
   <div class="post-content_next-left">
@@ -111,8 +117,9 @@ Son aquellos objetos suministrados por javascript, tales como:
 </div>
 <hr>
 ### Enlaces relacionados:
-[*Constructor de objetos*](http://localhost:2368/constructor-de-objetos-javascript/)
+[*Constructor de Objetos*](http://localhost:2368/constructor-de-objetos-javascript/)
 
+[*Métodos Javascript*](#)
 
 <div id="disqus_thread"></div>
 <script>
