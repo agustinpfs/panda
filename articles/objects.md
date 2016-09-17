@@ -1,3 +1,5 @@
+<span class="hidden-excerpt"> ¿Qué son los Objetos en Javascript? Definición - Uso - Ejemplos - Video tutorial.</span>
+
 <em>[Editar este artículo en Github](# " target="_blank)</em>
 
 # Objetos Javascript
