@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
 // var contact = require('./routes/contact');
-var contact2 = require('./routes/contact2');
+var contactt = require('./routes/contactt');
 //var oneDay = 86400000;
 var app = express();
 
@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // app.use('/contact', contact);
-app.use('/contact2', contact2);
+app.use('/contactt', contactt);
 
 
 
@@ -74,7 +74,7 @@ app.use('/contact2', contact2);
 //         });
 //     });
 
-app.post('/contact2', function (req, res) {
+app.post('/contactt', function (req, res) {
 
         'use strict';
 
@@ -99,18 +99,18 @@ app.post('/contact2', function (req, res) {
         smtpTrans.sendMail(mailOpts, function (error, response) {
 
             if (error) {
-                res.render('contact2', {
+                res.render('contactt', {
                     title: 'Contact Error',
                     msg: 'Error occured, message not sent.',
                     err: true,
-                    page: 'contact2'
+                    page: 'contactt'
                 });
             } else {
-                res.render('contact2', {
+                res.render('contactt', {
                     title: 'Contact Sent...',
                     msg: 'Message sent! Thank you.',
                     err: false,
-                    page: 'contact2'
+                    page: 'contactt'
                 });
             }
         });
