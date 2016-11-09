@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
-var contact = require('./routes/contact');
+// var contact = require('./routes/contact');
 var contact2 = require('./routes/contact2');
 //var oneDay = 86400000;
 var app = express();
@@ -27,54 +27,54 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/contact', contact);
+// app.use('/contact', contact);
 app.use('/contact2', contact2);
 
 
 
+// app.post('/contact', function (req, res) {
+
+//         'use strict';
+
+//         var mailOpts, smtpTrans;
+
+//         smtpTrans = nodemailer.createTransport('SMTP', {
+//             service: "Gmail",
+//             // host: 'smtp.server.com',
+//             auth: {
+//                 user: "pandawebs@gmail.com",
+//                 pass: "xxxxxxxxxx"
+//             }
+//         });
+
+//         mailOpts = {
+//             from: '<pandawebs@gmail.com>',
+//             to: 'pandawebs@gmail.com',
+//             subject: 'Contact Form',
+//             text: 'Name: ' + req.body.name + '\n' + 'Email: ' + req.body.email + '\n' + req.body.message
+//         };
+
+//         smtpTrans.sendMail(mailOpts, function (error, response) {
+
+//             if (error) {
+//                 res.render('contact', {
+//                     title: 'Contact Error',
+//                     msg: 'Error occured, message not sent.',
+//                     err: true,
+//                     page: 'contact'
+//                 });
+//             } else {
+//                 res.render('contact', {
+//                     title: 'Contact Sent...',
+//                     msg: 'Message sent! Thank you.',
+//                     err: false,
+//                     page: 'contact'
+//                 });
+//             }
+//         });
+//     });
+
 app.post('/contact2', function (req, res) {
-
-        'use strict';
-
-        var mailOpts, smtpTrans;
-
-        smtpTrans = nodemailer.createTransport('SMTP', {
-            service: "Gmail",
-            // host: 'smtp.server.com',
-            auth: {
-                user: "pandawebs@gmail.com",
-                pass: "xxxxxxxxxx"
-            }
-        });
-
-        mailOpts = {
-            from: '<pandawebs@gmail.com>',
-            to: 'pandawebs@gmail.com',
-            subject: 'suscr art Form',
-            text: 'Name: ' + req.body.name + '\n' + 'Email: ' + req.body.email + '\n' + req.body.message
-        };
-
-    smtpTrans.sendMail(mailOpts, function (error, response) {
-
-        if (error) {
-            res.render('contact2', {
-                title: 'Contact Error',
-                msg: 'Error occured, message not sent.',
-                err: true,
-                page: 'contact2'
-            });
-        } else {
-            res.render('contact2', {
-                title: 'Contact Sent...',
-                msg: 'Message sent! Thank you.',
-                err: false,
-                page: 'contact2'
-            });
-        }
-    });
-});
-
-app.post('/contact', function (req, res) {
 
         'use strict';
 
@@ -99,18 +99,18 @@ app.post('/contact', function (req, res) {
         smtpTrans.sendMail(mailOpts, function (error, response) {
 
             if (error) {
-                res.render('contact', {
+                res.render('contact2', {
                     title: 'Contact Error',
                     msg: 'Error occured, message not sent.',
                     err: true,
                     page: 'contact'
                 });
             } else {
-                res.render('contact', {
+                res.render('contact2', {
                     title: 'Contact Sent...',
                     msg: 'Message sent! Thank you.',
                     err: false,
-                    page: 'contact'
+                    page: 'contact2'
                 });
             }
         });
