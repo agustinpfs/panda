@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
 var contact = require('./routes/contact');
-var contact = require('./routes/contact2');
+var contact2 = require('./routes/contact2');
 //var oneDay = 86400000;
 var app = express();
 
@@ -41,7 +41,7 @@ app.post('/contact', function (req, res) {
             // host: 'smtp.server.com',
             auth: {
                 user: "pandawebs@gmail.com",
-                pass: "xxxxxxxxxxxxx"
+                pass: "xxxxxxxxxx"
             }
         });
 
@@ -83,7 +83,7 @@ app.post('/contact2', function (req, res) {
             // host: 'smtp.server.com',
             auth: {
                 user: "pandawebs@gmail.com",
-                pass: "xxxxxxxxxxxxx"
+                pass: "xxxxxxxxxx"
             }
         });
 
@@ -148,7 +148,6 @@ app.use(function (err, req, res, next) {
 // for modulus deployments
 var port = process.env.PORT || 3000;
 app.listen(port);
-// app.listen(form.pandawebs.net);
 
 
 
