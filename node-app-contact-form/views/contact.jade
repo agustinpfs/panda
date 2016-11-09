@@ -6,10 +6,7 @@ block content
                 form.form(action='/contact', name='contact', id='contact', method='post', onsubmit="submit.disabled = true; return true;")
                     div.form-group
                         label(for='name') Name:
-                        input.form-control(name='name', type='text', placeholder='Name', id='name' required autofocus)
-                    div.form-group
-                        label(for='name') Name:
-                        input.form-control(name='input_id', type='text', placeholder='Name', id='input_id' required autofocus)
+                        input.form-control(name='name', type='text', placeholder='Name', id='name' required autofocus)                    
                     div.form-group
                         label(for='email') Email:
                         input.form-control(name='email', type='email', placeholder='Email', id='email' required)
@@ -26,5 +23,3 @@ block content
                             p.err.bg-warning #{msg}
                         else
                             p.msgbox.success.bg-success #{msg}
-    script.
-        document.getElementById("input_id").value = document.referrer

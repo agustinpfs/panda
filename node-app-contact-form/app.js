@@ -37,8 +37,8 @@ app.post('/contact', function (req, res) {
         service: "Gmail",
         // host: 'smtp.server.com',
         auth: {
-            user: "aguja2013@gmail.com",
-            pass: "calaboix"
+            user: "xxxxxx@gmail.com",
+            pass: "xxxxxx"
         }
     });
 
