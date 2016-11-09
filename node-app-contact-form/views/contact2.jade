@@ -1,0 +1,24 @@
+extends layout
+block content
+    div.container
+        .row
+            .col-md-5
+                form.form(action='/contact2', name='contact2', id='contact2', method='post')
+                    div.form-group
+                        //- label(for='name') Name:
+                        input.form-control(name='name', type='hidden', placeholder='Name', id='auto_input' required)
+                    div.form-group
+                        label(for='email') Email:
+                        input.form-control(name='email', type='email', placeholder='Email', id='email' required)                  
+                    div.form-group
+                        input.form-btn.btn-primary.btn-sm(name='submit', type='submit', value='Send', id='submit')
+                    
+
+                    if(typeof msg !== 'undefined')
+                        if(!!err)
+                            p.err.bg-warning #{msg}
+                        else
+                            p.msgbox.success.bg-success #{msg}
+
+    script.
+        document.getElementById("auto_input").value = document.referrer
