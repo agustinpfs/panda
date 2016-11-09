@@ -103,7 +103,7 @@ app.post('/contact2', function (req, res) {
                     title: 'Contact Error',
                     msg: 'Error occured, message not sent.',
                     err: true,
-                    page: 'contact'
+                    page: 'contact2'
                 });
             } else {
                 res.render('contact2', {
