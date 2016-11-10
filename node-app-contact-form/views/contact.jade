@@ -1,28 +1,3 @@
-//- //- extends layout
-//- //- block content
-//- //-     div.container
-//- //-         .row
-//- //-             .col-md-5
-//- //-                 form.form(action='/contact', name='contact', id='contact', method='post', onsubmit="submit.disabled = true; return true;")
-//- //-                     div.form-group
-//- //-                         label(for='name') Name:
-//- //-                         input.form-control(name='name', type='text', placeholder='Name', id='name' required autofocus)
-//- //-                     div.form-group
-//- //-                         label(for='email') Email:
-//- //-                         input.form-control(name='email', type='email', placeholder='Email', id='email' required)
-//- //-                     div.form-group
-//- //-                         label(for='message') Message:
-//- //-                         textarea.form-control(name='message', placeholder='Message' id='message' rows="10")
-//- //-                     div.form-group
-//- //-                         input.form-btn.btn-primary.btn-sm(name='submit', type='submit', value='Send', id='submit')
-                    
-
-//- //-                     if(typeof msg !== 'undefined')
-//- //-                         if(!!err)
-//- //-                             p.err.bg-warning #{msg}
-//- //-                         else
-//- //-                             p.msgbox.success.bg-success #{msg}
-
 //- extends layout
 //- block content
 //-     div.container
@@ -30,11 +5,14 @@
 //-             .col-md-5
 //-                 form.form(action='/contact', name='contact', id='contact', method='post', onsubmit="submit.disabled = true; return true;")
 //-                     div.form-group
-//-                         //- label(for='name') Name:
-//-                         input.form-control(name='name', type='hidden', placeholder='Name', id='auto_input' required)
+//-                         label(for='name') Name:
+//-                         input.form-control(name='name', type='text', placeholder='Name', id='name' required autofocus)
 //-                     div.form-group
 //-                         label(for='email') Email:
-//-                         input.form-control(name='email', type='email', placeholder='Email', id='email' required)                  
+//-                         input.form-control(name='email', type='email', placeholder='Email', id='email' required)
+//-                     div.form-group
+//-                         label(for='message') Message:
+//-                         textarea.form-control(name='message', placeholder='Message' id='message' rows="10")
 //-                     div.form-group
 //-                         input.form-btn.btn-primary.btn-sm(name='submit', type='submit', value='Send', id='submit')
                     
@@ -45,7 +23,29 @@
 //-                         else
 //-                             p.msgbox.success.bg-success #{msg}
 
-//-     script.
-//-         document.getElementById("auto_input").value = document.referrer
+extends layout
+block content
+    div.container
+        .row
+            .col-md-5
+                form.form(action='/contact', name='contact', id='contact', method='post', onsubmit="submit.disabled = true; return true;")
+                    div.form-group
+                        //- label(for='name') Name:
+                        input.form-control(name='name', type='hidden', placeholder='Name', id='auto_input' required)
+                    div.form-group
+                        label(for='email') Email:
+                        input.form-control(name='email', type='email', placeholder='Email', id='email' required)                  
+                    div.form-group
+                        input.form-btn.btn-primary.btn-sm(name='submit', type='submit', value='Send', id='submit')
+                    
+
+                    if(typeof msg !== 'undefined')
+                        if(!!err)
+                            p.err.bg-warning #{msg}
+                        else
+                            p.msgbox.success.bg-success #{msg}
+
+    script.
+        document.getElementById("auto_input").value = document.referrer
 
 
