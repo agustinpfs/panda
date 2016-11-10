@@ -12,6 +12,7 @@ input{
 }
 input, textarea{
     width: 100%;
+    font-size: .9rem;
 }
 
 .form-btn{
