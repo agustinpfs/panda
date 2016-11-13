@@ -17,8 +17,24 @@
     </header>
     <section class="post-content">
       {{content}}     
-    </section>
-        
+    </section> 
+    
+     <div class="iframe-cont">
+
+      <div class="">
+        <p>Actualizaciones de este artículo</p>
+        <iframe src="http://localhost:3000/contact" frameborder="0"></iframe>
+      </div>
+      <div class="">
+      <p>Suscripción al blog</p>
+        {{subscribe_form
+            form_class="gh-signin"
+            placeholder="Email"
+            input_class="gh-input"
+            button_class="btn btn-blue btn-block"
+        }}      
+      </div>
+     </div>    
   </article>
   <div id="disqus_thread"></div>
   <script>

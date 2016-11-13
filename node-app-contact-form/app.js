@@ -42,14 +42,14 @@ app.post('/contact', function (req, res) {
             service: "Gmail",
             // host: 'smtp.server.com',
             auth: {
-                user: "pandawebs@gmail.com",
+                user: "pandawebs13@gmail.com",
                 pass: "xxxxxxxxxx"
             }
         });
 
         mailOpts = {
-            from: '<pandawebs@gmail.com>',
-            to: 'pandawebs@gmail.com',
+            from: '<pandawebs13@gmail.com>',
+            to: 'pandawebs13@gmail.com',
             subject: 'Contact Form',
             text: 'Name: ' + req.body.name + '\n' + 'Email: ' + req.body.email + '\n' + req.body.message
         };
@@ -59,14 +59,14 @@ app.post('/contact', function (req, res) {
             if (error) {
                 res.render('contact', {
                     title: 'Contact Error',
-                    msg: 'Error occured, message not sent.',
+                    msg: 'Ocurrió un error. Actualiza y reintenta o escribe a pandawebs.net@gmail.com',
                     err: true,
                     page: 'contact'
                 });
             } else {
                 res.render('contact', {
                     title: 'Contact Sent...',
-                    msg: 'Message sent! Thank you.',
+                    msg: 'Suscripto!',
                     err: false,
                     page: 'contact'
                 });
@@ -84,14 +84,14 @@ app.post('/contact2', function (req, res) {
             service: "Gmail",
             // host: 'smtp.server.com',
             auth: {
-                user: "pandawebs@gmail.com",
+                user: "pandawebs13@gmail.com",
                 pass: "xxxxxxxxxx"
             }
         });
 
         mailOpts = {
-            from: '<pandawebs@gmail.com>',
-            to: 'pandawebs@gmail.com',
+            from: '<pandawebs13@gmail.com>',
+            to: 'pandawebs13@gmail.com',
             subject: 'Contact Form',
             text: 'Name: ' + req.body.name + '\n' + 'Email: ' + req.body.email + '\n' + req.body.message
         };

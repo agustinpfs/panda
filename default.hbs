@@ -39,12 +39,13 @@
                 
             </div>
             <div class="default-navigation">
-                {{subscribe_form
-                    form_class="gh-signin"
-                    placeholder="Your email address"
-                    input_class="gh-input"
-                    button_class="btn btn-blue btn-block"
-                }}
+                <div class="">
+                   {{#if @labs.subscribers}}
+                    <p>Suscripción:</p>
+                       <a class="gh-signin btn" href="{{@blog.url}}/subscribe/">Recibe Pandawebs en tu correo</a>
+                       <a class="gh-signin btn" href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fpandawebs.net%2Ffeed%2F'  target='blank'>Agregar a feedly</a>
+                   {{/if}}
+                  </div>
                 {{navigation}}
             </div>
         </div>

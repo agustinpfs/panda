@@ -34,12 +34,14 @@
 			
 			
 		p 
-			em
+			strong
+				display flex 
 				a
-				
+					font-weight: 300
 					text-decoration: none
-					display block
+					// display inline-block
 					text-align: right
+					margin-left auto
 					// right .2rem
 					// top .2rem
 					color #cc0044
@@ -124,24 +126,87 @@
 			justify-content: space-between
 			color black
 			margin-bottom 1rem
+			text-decoration none !important
+
 			a 
 				display block
-				text-decoration: underline !important
-				color white	!important			
+				// padding 2px 4px
+				text-decoration none
+			:hover
+				text-decoration none !important
+
+			p 
 				background-color #0086b3
-				padding 2px 4px
+				// text-decoration: underline !important
+				color white	!important
+				margin 0
+				padding-right .2rem	
+				&:hover
+					background-color #009999
+			span 
+				// background-color white
+				display block
+				color black
+				// border 3px solid white	
+
+
 			&-right
 				a 
 					text-align: right
 					margin-left auto
-					background-color #0086b3
+					// background-color #0086b3
 					padding 2px 4px
+				
+
 
 
 		hr 
 			margin-top 0
 
+.iframe-cont
+	margin-top 1.5rem
+	display flex
+	justify-content: space-between
+	flex-wrap wrap
+	border-bottom 1px solid grey
+	border-top 1px solid grey
+	// background-color #e6f2ff
+	background-color #f0f6fc
+	padding .5rem
 
+	// display inline-block
+	// width: 50%
+	.btn
+		color #f2f2f2
+		text-decoration: none
+		background #1d1d1d
+		// padding .2rem
+		&:hover 
+			text-decoration: underline
+	.gh-signin
+		background-color white
+	.gh-input
+		margin-top 3px
+		// margin-left 2px
+		margin-left 0
+	.form-group
+		border 0
+	iframe
+		height 70px !important
+		// margin-left 1rem
+	div
+		display inline-block
+		// border-top 1px solid green
+		// width 230px
+
+		
+		p
+			a 
+				pointer-events: none;
+				cursor: default;
+				text-decoration none 
+				color black
+				font-weight: 300
 			
 #console-object
 	height 300px !important

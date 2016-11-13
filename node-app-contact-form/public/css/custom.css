@@ -9,10 +9,11 @@ label{
 }
 input{
     height: 1.5rem;
-}
+/*    border: 1px solid green;
+*/}
 input, textarea{
     width: 100%;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .form-btn{
@@ -20,3 +21,51 @@ input, textarea{
     font-size: 1.5rem;
     height: 1.5rem;
 }
+
+
+
+
+
+.gh-input{
+    border: 0;
+    border-bottom: 2px solid grey !important;
+    height: 20px;
+    margin-left: 0px !important
+}
+
+.btn{
+    color: #f2f2f2;
+    text-decoration: none;
+    background: #1d1d1d;
+    padding: .2rem !important;
+    border: 0;
+    font-size: .9rem;
+    width: initial;
+    /*margin-top: -3px;*/
+}
+.btn:hover {
+    text-decoration: underline;
+}
+
+.form-simple{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -7px;
+}
+
+
+/*.form-simple input{
+    height: initial;
+}*/
+
+body{
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
