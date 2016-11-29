@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 # If - Else condicionales Javascript.
 
@@ -83,7 +83,7 @@ La 1º condición `( 7 < 3 )` en la linea 1 es falsa y pasa a la siguiente: `els
 
 [*Enlaces relacionados*](#)
 
-<em>[Editar este artículo en Github](#)</em>
+<em>[Editar este artículo](#)</em>
 
 <hr>
 <div class="post-content_next">

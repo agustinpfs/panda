@@ -1,4 +1,6 @@
 .Post
+	header 
+		margin-bottom 1rem
 	ul 
 		margin-left -1.5rem
 	p
@@ -19,8 +21,10 @@
 				color #551a8b
 	&-tags
 		em 
-			background-color #f2f2f2
+			background-color #1d1d1d
 			margin-right .5rem
+			font-weight: normal 
+			color white
 		a 
 			text-decoration: none
 			color #551a8b
@@ -28,11 +32,20 @@
 			text-decoration: underline
 	.post-content 
 		position: relative
+		.Post-edit 
+			display flex
+			padding-bottom 1rem
+			border-bottom 1px solid #f2f2f2
+			font-size: 80%
+
 		
 		a 
 			text-decoration: underline
-			
-			
+		.post-link-edit
+			color #1d1d1d
+			// color #cc0044
+			text-align right
+			margin-left auto		
 		p 
 			.link-to-github
 				display flex 
@@ -40,6 +53,7 @@
 					font-weight: 300
 					text-decoration: none
 					// display inline-block
+					
 					text-align: right
 					// margin-left .5rem
 					// right .2rem
@@ -50,7 +64,7 @@
 					&:hover
 						text-decoration: underline
 			.link-to-index-git 
-				font-size: 85%
+				font-size: 1rem
 				a 
 					color #0086b3
 					// text-decoration: none
@@ -58,35 +72,36 @@
 					// text-align: right
 					
 		&-button
-			display block
-			padding: .2rem
-			color black
-			background-color white
+			// display block
+			// padding: .2rem
+			// color black
+			color #cc0044
+			font-weight: 600
 			// margin-bottom 1.5rem
-			width 100%
+			// width 100%
 			// margin 0 auto
-			border 1px solid black
+			// border 1px solid black
 			&:hover
-				border 1px solid green
-				color green
+				// border 1px solid green
+				// color green
 				// background-color #e6ffee
-
+				text-decoration: underline
 				
 		&_button-console
 		&_button-console2
 		&_button-console3
 			text-align center
 			padding: .2rem
-			color black
+			color #f2f2f2
 			// background-color #003366
-			border 1px solid black
+			border 0
 			width 100%
-			background-color white
+			background-color #0086b3
 
 			&:hover
-				// background-color #00264d
-				color blue
-				border 1px solid blue
+				background-color #00779f
+				// color blue
+				// border 1px solid blue
 
 			// iframe
 			// 	max-height: 600px !important
@@ -144,7 +159,7 @@
 				padding-left .2rem	
 				
 				&:hover
-					background-color #009999
+					background-color #00779f
 			span 
 				// background-color white
 				display block
@@ -168,6 +183,7 @@
 
 		hr 
 			margin-top 0
+		
 
 .iframe-cont
 	margin-top 1.5rem

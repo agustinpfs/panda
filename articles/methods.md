@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 # Métodos Javascript
 
@@ -83,7 +83,7 @@ Ejemplos:
 
 [*Lista de métodos nativos*](#)
 
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 <hr>
 <div class="post-content_next">

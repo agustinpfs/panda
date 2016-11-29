@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 # Método Array splice() Javascript.
 
@@ -122,7 +122,7 @@ A partir de la posisión -1(incluída) son insertados los nuevos elementos(mar y
 
 [*Lista de métodos nativos*](#)
 
-<em>[Editar este artículo en Github](#)</em>
+<em>[Editar este artículo](#)</em>
 
 <hr>
 <div class="post-content_next">

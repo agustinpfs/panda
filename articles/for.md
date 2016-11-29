@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 # Bucle/ciclo(loop) For Javascript.
 
@@ -215,7 +215,7 @@ console.log(text);
 
 [*Enlaces relacionados*](#)
 
-<em>[Editar este artículo en Github](#)</em>
+<em>[Editar este artículo](#)</em>
 
 <hr>
 <div class="post-content_next">

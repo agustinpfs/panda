@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 # Constructor de objetos
 
@@ -171,7 +171,7 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 
 
 <hr>
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 <hr>
 <div class="post-content_next">

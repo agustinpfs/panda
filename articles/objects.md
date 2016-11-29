@@ -1,11 +1,24 @@
-<span class="hidden-excerpt"> ¿Qué son los Objetos en Javascript? Definición - Uso - Ejemplos - Video tutorial.</span>
+<span class="hidden-excerpt">Qué son los Objetos en Javascript. Definición - Uso - Ejemplos - Video tutorial. Ejemplo: Creación de un Objeto.</span>
 
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<div class="post-content_next">
+  <div style="visibility: hidden" class="post-content_next-left">
+    <a href=""></a>
+    <i>.</i>
+  </div>
+  <a href="http://localhost:2368/metodos-javascript">
+  <div class="post-content_next-right">
+    <p>siguiente</p>
+    <span>métodos javascript</span></a>
+  </div>
+</div>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/git-concepto-repositorios.md " target="_blank)</strong>
 
 # Objetos Javascript
 *¿Qué son los Objetos en Javascript? Definición - Uso - Ejemplos - Video tutorial.*
 
-<button class="post-content-button">VER VIDEO AHORA</button>
+<a href="youtube.com" class="post-content-button">Video tutorial</a>
 
 > *"La programación orientada a objetos puede considerarse como el diseño de software a través de un conjunto de objetos que cooperan"* -MDN
 
@@ -103,43 +116,32 @@ Son aquellos Objetos suministrados por Javascript, tales como:
 <br>
 <br>
 
-<em>[Editar este artículo en Github](# " target="_blank)</em>
-<hr>
-<button class="post-content-button">VER VIDEO TUTORIAL</button>
+<!-- Inicio links índice y github -->
+
+<span class="link-to-index-git">Git & Github elemental [ ver índice](http://localhost:2368/git-github-elemental/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/Git-y-GitHub-elemental/edit/master/clonar-un-repositorio.md " target="_blank)</strong>
+
+<!-- Fin links índice y github -->
+
+<a class="post-content-button">Video tutorial</a>
 <hr>
 <div class="post-content_next">
-  <div class="post-content_next-left">
+  <div style="visibility: hidden" class="post-content_next-left">
     <a href=""></a>
     <i>.</i>
   </div>
+  <a href="http://localhost:2368/metodos-javascript">
   <div class="post-content_next-right">
-    <a href="http://localhost:2368/metodos-javascript/">siguiente</a>
-    <i>métodos javascript</i>
+    <p>siguiente</p>
+    <span>métodos javascript</span></a>
   </div>
 </div>
-<hr>
-### Enlaces relacionados:
-[*Constructor de Objetos*](http://localhost:2368/constructor-de-objetos-javascript/)
+<br>
 
-[*Métodos Javascript*](#)
+**Enlaces relacionados:**
 
-<div id="disqus_thread"></div>
-<script>
+[Constructor de Objetos](http://localhost:2368/constructor-de-objetos-javascript/)
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+[Métodos Javascript](#)
+

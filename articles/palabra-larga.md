@@ -1,4 +1,4 @@
-<em>[Editar este artículo en Github](# " target="_blank)</em>
+<em>[Editar este artículo](# " target="_blank)</em>
 
 Ejemplo Algoritmo Javascript.
 <hr>
@@ -135,7 +135,7 @@ Para ello utilizamos [split](#) indicándole donde se hará la división. En est
 
 [*Enlaces relacionados*](#)
 
-<em>[Editar este artículo en Github](#)</em>
+<em>[Editar este artículo](#)</em>
 
 <hr>
 <div class="post-content_next">
