@@ -5,14 +5,14 @@
     <a href=""></a>
     <i>.</i>
   </div>
-  <a href="http://localhost:2368/metodos-javascript">
+  <a href="http://pandawebs.net/metodos-javascript">
   <div class="post-content_next-right">
     <p>siguiente</p>
     <span>métodos javascript</span></a>
   </div>
 </div>
 
-<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
 <strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/git-concepto-repositorios.md " target="_blank)</strong>
 
 # Objetos Javascript
@@ -111,14 +111,14 @@ Son aquellos Objetos suministrados por Javascript, tales como:
 - Date
 - Math, etc.
 
-**Estos Objetos funcionan como [*Constructor de Objetos*](http://localhost:2368/constructor-de-objetos-javascript/)**
+**Estos Objetos funcionan como [*Constructor de Objetos*](http://pandawebs.net/constructor-de-objetos-javascript/)**
 
 <br>
 <br>
 
 <!-- Inicio links índice y github -->
 
-<span class="link-to-index-git">Git & Github elemental [ ver índice](http://localhost:2368/git-github-elemental/)</span>
+<span class="link-to-index-git">Git & Github elemental [ ver índice](http://pandawebs.net/git-github-elemental/)</span>
 
 <strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/Git-y-GitHub-elemental/edit/master/clonar-un-repositorio.md " target="_blank)</strong>
 
@@ -131,7 +131,7 @@ Son aquellos Objetos suministrados por Javascript, tales como:
     <a href=""></a>
     <i>.</i>
   </div>
-  <a href="http://localhost:2368/metodos-javascript">
+  <a href="http://pandawebs.net/metodos-javascript">
   <div class="post-content_next-right">
     <p>siguiente</p>
     <span>métodos javascript</span></a>
@@ -141,7 +141,7 @@ Son aquellos Objetos suministrados por Javascript, tales como:
 
 **Enlaces relacionados:**
 
-[Constructor de Objetos](http://localhost:2368/constructor-de-objetos-javascript/)
+[Constructor de Objetos](http://pandawebs.net/constructor-de-objetos-javascript/)
 
 [Métodos Javascript](#)
 
