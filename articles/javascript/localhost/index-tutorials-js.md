@@ -2,24 +2,32 @@
 
 - [Objetos Javascript](http://localhost:2368/objetos-javascript)
 
-- [¿Cómo crear un repositorio?](http://localhost:2368/crear-un-repositorio)
+- [Métodos Javascript](http://localhost:2368/metodos-javascript)
 
-- [Flujo de trabajo básico con Git](http://localhost:2368/flujo-de-trabajo-basico-con-git)
+- [Constructor de objetos](http://localhost:2368/constructor-de-objetos-javascript)
 
-- [Ejemplo de flujo de trabajo con Git](http://localhost:2368/ejemplo-de-flujo-de-trabajo-con-git)
+- [Método split()](http://localhost:2368/metodo-split-javascript)
 
-- [Ramas (branches)](http://localhost:2368/trabajar-con-ramas-git)
+- [Método splice()](http://localhost:2368/metodo-splice-javascript)
 
-- [Git reset](http://localhost:2368/git-reset)
+- [Método slice()](http://localhost:2368/metodo-slice-javascript)
 
-- [Github. Funcionamiento](http://localhost:2368/funcionamiento-de-github)
+- [Método reduce()](http://localhost:2368/metodo-reduce-javascript)
 
-- [SSH - HTTPS - conexión GitHub](http://localhost:2368/ssh-https-conexion-github)
+- [Método map()](http://localhost:2368/metodo-map-javascript)
 
-- [Git fetch - git pull](http://localhost:2368/git-fetch-git-pull)
+- [Método join()](http://localhost:2368/metodo-join-javascript)
 
-- [Git clone. Clonar un repositorio](http://localhost:2368/clonar-un-repositorio)
+- [Método replace()](http://localhost:2368/metodo-replace-javascript)
 
-- [Fork un repositorio](http://localhost:2368/fork-un-repositorio)
+- [Método sort()](http://localhost:2368/metodo-sort-javascript)
 
-- [Pull request](http://localhost:2368/pull-request)
+- [Bucle/ciclo(loop) For](http://localhost:2368/bucle-ciclo-loop-for-javascript)
+
+- [If - Else condicionales](http://localhost:2368/if-else-condicionales-javascript)
+
+- [Expresiones Regulares(regex)](http://localhost:2368/expresiones-regulares-javascript-regex)
+
+##Algoritmos Javascript
+
+- [Encontrar la palabra más larga de un string](http://localhost:2368/palabra-mas-larga-string)
