@@ -1,0 +1,539 @@
+commit 73be865df328a359d2c5e461664f4533222b100e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Dec 9 18:19:29 2016 -0300
+
+    add date last update in loop. Styles updates
+
+commit c41b01455cd214417b4938e8cb4412ac8f0d94ce
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 30 09:25:27 2016 -0300
+
+    update articles. Index JS. Update styles
+
+commit 25c8b50ba5c7d44aae97b866949802a897e5c50d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Nov 29 11:19:47 2016 -0300
+
+    add articles git and order folders
+
+commit 4cf439d073c505a406c30ea9b21fcaadd0c8157e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Nov 29 10:04:08 2016 -0300
+
+    update articles. delet files that do not correspond
+
+commit 4e70ca956be29e829a788a14aba61cf35f9d1cb5
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Nov 13 22:36:31 2016 -0300
+
+    update styles
+
+commit 976f0609814aaf0916077803c9e2feddf09c450e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Nov 13 19:05:47 2016 -0300
+
+    pagination layout & style
+
+commit e4649585b7709788c0160c32cd692a50492ebc7e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Nov 13 18:45:58 2016 -0300
+
+    update styles
+
+commit 757fc5c3fc2629ebacd3d4904db4f51e7b8d3299
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Nov 13 12:55:26 2016 -0300
+
+    update styles and suscription forms
+
+commit 0d160307f008c9b29b3610c0a47a4ad176b0a749
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 14:49:58 2016 -0300
+
+    update .gitignore
+
+commit 23c14e089b5ab5b509e3e6ae367715c5b6201db9
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 14:47:57 2016 -0300
+
+    clean form code
+
+commit bc2990f50dc6460b7d82145c2f2cd0ed32ee6cdb
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 10:57:51 2016 -0300
+
+    correct jade form
+
+commit 30c6d8848f53dcac7deb29910c39f6684d33d301
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 09:28:54 2016 -0300
+
+    restart form
+
+commit 7bde46b17a883a3b7f5ae1a127e839768d514d26
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 09:20:41 2016 -0300
+
+    restart form
+
+commit c9f8da6be9deaa3e748d94c9471ec5372dc488d4
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 10 08:42:02 2016 -0300
+
+    restart form
+
+commit 31034a0ab47da925046c37ec9d3b2e504b3c60bf
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 19:12:35 2016 -0300
+
+    testing form
+
+commit a9308ec6b5ca15d99c62534f27c5d6a85b4523bd
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 19:02:50 2016 -0300
+
+    testing form
+
+commit f05b9fd3858089d3d13b5f1337375d914ead6a33
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:58:21 2016 -0300
+
+    testing form
+
+commit 650962cc31499d49e16590a29594e3ad254a4053
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:54:29 2016 -0300
+
+    testing form
+
+commit b080eaede997b7e8e2ad875838c2ca5741e8eb6b
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:51:46 2016 -0300
+
+    testing form
+
+commit 55435506b909ad916daf437af95105984f2978e4
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:41:06 2016 -0300
+
+    testing form
+
+commit abe22b4934f1a2acec9c083362dba4a1e03cd8a7
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:33:57 2016 -0300
+
+    testing form
+
+commit 5e4e3ee8e494ba5bccd9841a8e54d1dda079bcfa
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:23:46 2016 -0300
+
+    testing form
+
+commit 34035187bd8aee24388ef481e61f9ffd8eb46b1d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:15:01 2016 -0300
+
+    testing form
+
+commit 6d0a90a0e409ffcb949be66f0d348a9842e7570a
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 18:04:54 2016 -0300
+
+    testing form
+
+commit 38874a8acef98fd726b97ad46a46068bc20af7a5
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 16:36:52 2016 -0300
+
+    update route form
+
+commit a75d6e13d49c9d113ba53080c287721696a8d53c
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 16:25:33 2016 -0300
+
+    update form
+
+commit 4545ea0971253db06e7cc6a213708e9e4d042d83
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 14:57:57 2016 -0300
+
+    update .gitignore
+
+commit c4c23b61145364bf50b192415ca67290b0168c26
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 14:52:48 2016 -0300
+
+    update forms add contact2
+
+commit 32f21486964349e0d10feede20b3f8f0b5f9f921
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Nov 9 08:04:58 2016 -0300
+
+    update contact form
+
+commit 3d591ea22781f37cfd0abe07f900f8ee0b53f20d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Nov 8 20:21:14 2016 -0300
+
+    test form
+
+commit c8c45902ec309dfccd05726f5471d6d7f093f24e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Nov 8 13:27:04 2016 -0300
+
+    styles link enter in list
+
+commit 7becd0967be467ca2667792ee3a6bc3c9abd3821
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Nov 8 13:18:53 2016 -0300
+
+    change font size input subscribe
+
+commit 252a28b2fe6b0d64865e8112de69a8599057b998
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Mon Nov 7 09:05:05 2016 -0300
+
+    add image and disqus code in post.hbs
+
+commit 2099754a096cc0cd863dae0967c9e6bd71faee03
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Nov 6 17:52:46 2016 -0300
+
+    creamos index.html
+
+commit 13fc51c83330e66f3a889cbc471d7b9b206d39b2
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Nov 5 19:37:10 2016 -0300
+
+    change images and change excerpt caracters numbers
+
+commit ffbe84ecf305ae3dc6bf68c29f74aae69ce7e873
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 3 19:27:32 2016 -0300
+
+    change image
+
+commit 9836081431cf3796f7d82348cf4cfda7b6252a24
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Nov 3 13:04:58 2016 -0300
+
+    add branch image and update css
+
+commit fe8a3eb61493d8c31cdedae5a7f36419b7430e2b
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Oct 30 10:10:58 2016 -0300
+
+    test remote bis
+
+commit 1e9009d02a1e0b1749dd61a55f76a096eb4c0c71
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Oct 30 10:02:49 2016 -0300
+
+    test remote
+
+commit be4f874a084b6db385fe472c8a2b206a3c648d6c
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Oct 29 12:41:05 2016 -0300
+
+    add images and styles
+
+commit 3039ca5cd244f43ce27a1a84a9a1dc3da82cfbe0
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 20:48:48 2016 -0300
+
+    add css content page
+
+commit 958001f55827ee9484c42ad9f7ac8d939aeac082
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 16:31:16 2016 -0300
+
+    test form
+
+commit cc005772fc5eeb47ffd92237f0a3eabe09f7d7d4
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 16:29:51 2016 -0300
+
+    add .DS_Store to .gitignore
+
+commit 09254d5461fe164f5d616f302e6da5fd91085c1f
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 16:24:16 2016 -0300
+
+    test form
+
+commit 4d5db6b76660320e9b879a8a49eccce59decdea0
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 14:07:11 2016 -0300
+
+    add 'by' in author post
+
+commit 6e3e12c1850afdd06dbb594ea683b01c4cacb850
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 14:01:43 2016 -0300
+
+    add margin menu
+
+commit f05fe9e826d2a9621a3f425451a9e6b02cec2b7e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 13:38:21 2016 -0300
+
+    settings excerpt & home css
+
+commit e44f2d238513db4b82730272f9d6a9daad7fdfd7
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 17 10:33:27 2016 -0300
+
+    change hover color in header title
+
+commit dc35514803ecb81c9471340c4160b4abdeb7f371
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 15:54:46 2016 -0300
+
+    test
+
+commit f1c0a2054c089fa54fdc43ac71380abe327b8b82
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 15:51:52 2016 -0300
+
+    test
+
+commit 50f0789f9e5da816e5b86a79c88b934016fd31d1
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 13:16:15 2016 -0300
+
+    test
+
+commit 1b1ab55dcb4ec11466e7815d44a65f40b7a19c85
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 10:24:36 2016 -0300
+
+    test
+
+commit 2e1081ef1db52e3921179d188dba2b3699b561da
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 10:01:01 2016 -0300
+
+    test
+
+commit 609a69b0f5e34055c0cbb499c83a345634405a70
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 09:57:46 2016 -0300
+
+    test
+
+commit 0b379c088ad06b94b25a2c951912c10d14a652fb
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Sep 16 09:22:12 2016 -0300
+
+    test
+
+commit 355a143aef07c06172b41898fe7280927943a82d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 15 21:38:20 2016 -0300
+
+    test
+
+commit 93d7c9895099227c9e195a45ce318b2245e86ff0
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 15 21:18:21 2016 -0300
+
+    css home articles
+
+commit a7959be340c1dcb92492ab82e881b3204fbf7189
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 15 14:44:39 2016 -0300
+
+    test
+
+commit aaae71dd92e44e11ac4730ae8b8d4f77a2eae61e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 15 11:05:35 2016 -0300
+
+    remove file
+
+commit bf8e327dde3501350a0c3dbfac36ca3f8c4456f6
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 15 07:08:25 2016 -0300
+
+    test first article production
+
+commit 8774b35f050fc370a2a7ce38f3c876e3a9c460a4
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Sep 3 13:59:40 2016 -0300
+
+    updates articles
+
+commit 53feb7128123cc90674c4d2b9e23e584808bfbd3
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Sep 1 16:31:06 2016 -0300
+
+    updates articles
+
+commit ae6d50145744d8f9abe58e2a3e6ddca6b29d3ec3
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 30 13:29:26 2016 -0300
+
+    updates articles
+
+commit 07ec457735c4397fbd651ca84f27fcf5cbcfb6f5
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Aug 27 18:33:17 2016 -0300
+
+    testing
+
+commit 425180b086762265228ed96822de9836a17d8aae
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Aug 27 09:08:57 2016 -0300
+
+    test serve
+
+commit be0a7c51189497b287fc1c435f558ebfba17e95b
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 23 11:42:28 2016 -0300
+
+    move example method constructor metodos.md to constructor.md
+
+commit 91476b698c86544f764690e0f2f1fb0904a8811a
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 23 11:18:03 2016 -0300
+
+    add articles folder. testing articles: scripts, iframes & css
+
+commit f7438c8975983656ea892d91f8926bda833761f7
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Mon Aug 22 22:51:45 2016 -0300
+
+    solved iframe embedded
+
+commit da2b0013ff568126a02eeaa809960ac1ded3d803
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Aug 20 20:23:03 2016 -0300
+
+    add console div show-hidden
+
+commit 5fd56942612d107aed3b5d4ca3866a2af21e293f
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Aug 19 10:45:26 2016 -0300
+
+    restructuring post.hbs and implement tonic - testing
+
+commit f1676ed34a309dd6c7640e6453b0e7ad3f34ff9b
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Aug 17 23:23:00 2016 -0300
+
+    add menu desktop
+
+commit c7c5d3656015cb6e3472cc936e049e04258efb67
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Aug 17 10:21:36 2016 -0300
+
+    add node contact form module, and layout page.hbs
+
+commit 5addd35ab8612802e87883a9f2695c707ba03aa2
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 16 18:50:21 2016 -0300
+
+    test contact form with nodemailer
+
+commit f894a48dc224de2874c5da86792da48a41e09e7c
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Aug 14 11:06:01 2016 -0300
+
+    add .gitignore
+
+commit 7ae7840a8e139ceb14fd4be576b22434f17b2d2f
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Aug 14 10:52:59 2016 -0300
+
+    add highlight. post.hbs layout
+
+commit 32ce01f5b818ee21686ea6659e83b9d65b49ea1e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 9 23:16:54 2016 -0300
+
+    change name index.styl for lists.styl
+
+commit ee4492fb36b81836b222eba220afbc16a7ac28b8
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 9 23:13:00 2016 -0300
+
+    join styles for index, tag, author
+
+commit 2a35b12b98de19abc951a90bbb47dcfc4770c921
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Aug 9 19:06:53 2016 -0300
+
+    footer, subscribe.test pagination. version 0.0.0 'index mobil'
+
+commit 57ca63e12d09a0fa821615026d680a421297f832
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Mon Aug 8 21:21:53 2016 -0300
+
+    order index styles
+
+commit 571ba0232df2abaf841d348c41ebcfbe3982446e
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Aug 7 19:53:10 2016 -0300
+
+    layout styles, index posts edit
+
+commit 166c373629b1dc8a080ef91a1c775f07b62d53ec
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Aug 7 12:46:15 2016 -0300
+
+    refactorize estructure and mobil menu
+
+commit 286c1634c38bf4c6a5225b8f4d47a3c809cd76c4
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sun Aug 7 10:42:56 2016 -0300
+
+    add normalize and test menu
+
+commit 81893c060637784f86c4532c66e40288fcfdb12a
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 22:22:22 2016 -0300
+
+    test styles main header
+
+commit 7eceb558245a84876021d665078cb7b963b340cd
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 18:59:23 2016 -0300
+
+    move navigation to header
+
+commit 9e2b6d15b6b040c5648e54a6806de3ae7cdfba48
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 18:40:38 2016 -0300
+
+    add page & subscribe contexts. settings stylus
+
+commit 51a39cef9f4ec02bd6b730bcb88524065a295601
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 16:13:34 2016 -0300
+
+    add author context
+
+commit a00249272ef04b94b477615e494b3295d0d249da
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 16:08:32 2016 -0300
+
+    test sidebar, add tag context
+
+commit 01026cd3147421f76e071e0f4c2b423f851bfdf2
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 09:05:25 2016 -0300
+
+    add post.hbs
+
+commit 05b7230f878dbdbfe1c8bf4de99a7fdfa6533152
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Aug 4 08:38:00 2016 -0300
+
+    initial structure + index, default, loop
+
+commit 8f74ec5612a7e84096f8345667ef92a71dd3f67e
+Author: Agustín <agustinpfs@users.noreply.github.com>
+Date:   Thu Aug 4 08:25:28 2016 -0300
+
+    Initial commit
