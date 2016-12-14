@@ -13,12 +13,12 @@
 </div>
 
 <span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/git-concepto-repositorios.md " target="_blank)</strong>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/Tutoriales-Javascript/edit/master/articles/objetos-javascript.md " target="_blank)</strong>
 
-# Objetos Javascript
+# Objetos Javascript 
 *¿Qué son los Objetos en Javascript? Definición - Uso - Ejemplos - Video tutorial.*
 
-<a href="youtube.com" class="post-content-button">Video tutorial</a>
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
 
 > *"La programación orientada a objetos puede considerarse como el diseño de software a través de un conjunto de objetos que cooperan"* -MDN
 
@@ -114,6 +114,14 @@ Son aquellos Objetos suministrados por Javascript, tales como:
 **Estos Objetos funcionan como [*Constructor de Objetos*](http://localhost:2368/constructor-de-objetos-javascript/)**
 
 <br>
+<!--            FIRMAR COMO COLABORADOR           -->
+
+<!-- <hr>
+###Colaboradores
+
+[TU NOMBRE](TU LINK) 
+
+-->
 <br>
 
 <!-- Inicio links índice y github -->
