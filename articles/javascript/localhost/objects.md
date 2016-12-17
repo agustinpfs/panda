@@ -128,7 +128,7 @@ Son aquellos Objetos suministrados por Javascript, tales como:
 
 <span class="link-to-index-git">Git & Github elemental [ ver índice](http://localhost:2368/git-github-elemental/)</span>
 
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/Git-y-GitHub-elemental/edit/master/clonar-un-repositorio.md " target="_blank)</strong>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/Tutoriales-Javascript/edit/master/articles/objetos-javascript.md " target="_blank)</strong>
 
 <!-- Fin links índice y github -->
 
