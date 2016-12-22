@@ -101,7 +101,11 @@ del repositorio en nuestra cuenta.
 
 ![alt](http://localhost:2368/assets/images/forked-PR-2.png)
 
-**3)** Abrimos la terminal en el directorio que vayamos a trabajar y lo clonamos:
+**3)** Copiamos la dirección url. Abrimos la terminal en el directorio que vayamos a trabajar y lo clonamos:
+
+Copiamos la dirección HTTPS o SSH [generar la clave SSH](http://localhost:2368/ssh-https-conexion-github/ " target="_blank).
+
+![alt](http://localhost:2368/assets/images/clonar-un-repositorio.png)
 
 `git clone https://github.com/tuCuenta/Tutoriales-Javascript.git`
 
@@ -115,26 +119,21 @@ del repositorio en nuestra cuenta.
 
 `cd Tutoriales-Javascript`
 
-**4)** Conectamos:
-
-`git remote add upstream https://github.com/Pandawebs/Tutoriales-Javascript.git`
-
-`git remote add origin https://github.com/tuCuenta/Tutoriales-Javascript.git`
 
 **5)** Creamos una rama. La llamaremos "propuesta-js":
 
 `git branch propuesta-js`
 
 
-**5)** Nos cambiamos a la nueva rama:
+**6)** Nos cambiamos a la nueva rama:
 
 `git checkout propuesta-js`
 
-**6)** Abrimos el archivo del artículo en nuestro editor de código y lo editamos.
+**7)** Abrimos el archivo del artículo en nuestro editor de código y lo editamos.
 
 ![alt](http://localhost:2368/assets/images/editor-edit-pw.png)
 
-Lo guardamos y vamos a la terminal:
+Lo guardamos y volvemos a la terminal:
 
 Escribimos:
 
@@ -142,7 +141,7 @@ Escribimos:
 
 `git commit -m "actualizamos artículo javascript"`
 
-**7)** Subimos la nueva rama con los cambios al fork:
+**8)** Subimos la nueva rama con los cambios al fork:
 
 `git push origin propuesta-js`
 
@@ -150,17 +149,19 @@ Si usamos conexión HTTPS nos pedirá nombre de usuario y contraseña de GitHub.
 
 <small>Usar SSH [genera la clave](http://localhost:2368/ssh-https-conexion-github).</small>
 
+**Ver:** [Mantener actualizado nuestro repositorio fork con el original(upstream)](http://localhost:2368/fork-un-repositorio/#ejemplo)
 
+<br>
 
-###En Github 
+### Seguimos en GitHub 
 
-**8)** Elegimos la rama en la que hicimos el cambio para proponer.
+**9)** Elegimos la rama en la que hicimos el cambio para proponer.
 
 ![alt](http://localhost:2368/assets/images/PR-elegir-rama-2.png)
 
 
 
-**9)** A la derecha del desplegable branch click a "new pull request"
+**10)** A la derecha del desplegable branch click a "new pull request"
 
 ![alt](http://localhost:2368/assets/images/PR-nuevo-2.png)
 
@@ -172,7 +173,7 @@ Si usamos conexión HTTPS nos pedirá nombre de usuario y contraseña de GitHub.
 
 
 
-**10)** Ponemos título y descripción(opcional) a nuestro pull request y le damos click a
+**11)** Ponemos título y descripción(opcional) a nuestro pull request y le damos click a
 "Create pull request". 
 
 ![alt](http://localhost:2368/assets/images/comment-pull-request.png)
