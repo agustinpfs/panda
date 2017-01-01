@@ -33,7 +33,7 @@ Con `git remote add upstream [url HTTPS o SSH del repositorio original]` conecta
 
 <small>- Para usar SSH [genera la clave](http://pandawebs.net/ssh-https-conexion-github) -</small>
 
-De esta manera con el comando `git fetch upstream` podrás saber si hubo cambios en el original. Si los hubo, con `git merge upstream/master` los puedes fusionar con tu repositorio.
+Luego con el comando `git fetch upstream` podrás saber si hubo cambios en el original. Si los hubo, con `git merge upstream/master` los puedes fusionar con tu repositorio.
 
 Cuando subas tu cambios a GitHub con `git push origin master` tu repositorio fork estará actualizado.
 

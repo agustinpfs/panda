@@ -1,11 +1,30 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">¿Qué son los constructores de objetos en Javascript. Definición - Uso - Ejemplos - Video tutorial. Ejemplo: Creación de un constructor de objetos Javascript.</span>
+
+<div class="post-content_next">
+  <a href="http://pandawebs.net/metodos-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>métodos javascript</span>
+  </div>
+  <a href="http://pandawebs.net/metodo-split-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método split()</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/constructor-de-objetos-javascript.md " target="_blank)</strong>
+
 
 # Constructor de objetos
 
-==Es una función que nos servirá para crear muchos objetos.==
+==Es una función que nos servirá para crear muchos objetos a partir de una misma estructura.==
 
 **Ejemplo:** 
-*Creamos 2 objetos llamados "miHermana" y "miHermano" ==*utilizando una misma estructura*== (constructor).*
+Creamos 2 objetos llamados "miHermana" y "miHermano" utilizando un constructor llamado "persona".
 
 <!-- box code whit highlight: /////////////////////////////////////////////////////////-->
 
@@ -40,11 +59,14 @@ console.log(miHermana.edad)
 
 <!-- End box code ///////////////////////////////////////////////////////////////////// -->
 
-*Despejemos dudas agregando conectores de colores al código:*
-<hr>
+<br>
 
-![alt](http://localhost:2368/assets/images/constructor-de-objetos.png)
-<hr>
+**Despejemos dudas agregando conectores de colores al código:**
+
+
+![alt](http://pandawebs.net/assets/images/constructor-de-objetos.png)
+
+
 **Explicación:**
 
 ==Este constructor es una función que crea *objetos de tipo "persona."*==  
@@ -99,7 +121,7 @@ console.log(miHermano.nombre)
 
 <hr>
 
-**Ejemplo:** Podemos crear un [método](http://localhost:2368/metodos-javascript/) para poder cambiar valores de propiedades del objeto constructor.
+**Ejemplo:** Podemos crear un [método](http://pandawebs.net/metodos-javascript/) para poder cambiar valores de propiedades del objeto constructor.
 
 <!-- start box code whit highlight: /////////////////////////////////////////////////////////-->
 
@@ -169,20 +191,25 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 
 </div>
 
+<hr>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/constructor-de-objetos-javascript.md " target="_blank)</strong>
 
 <hr>
-<em>[Editar este artículo](# " target="_blank)</em>
 
-<hr>
 <div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/metodos-javascript/">anterior</a>
-    <i>objetos javascript</i>
+  <a href="http://pandawebs.net/metodos-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>métodos javascript</span>
   </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/http://localhost:2368/constructor-de-objetos-javascript/-javascript/">siguiente</a>
-    <i>for javascript</i>
-  </div>
+  <a href="http://pandawebs.net/metodo-split-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método split()</span>
+    </div>
+  </a>
 </div>
 <hr>
 

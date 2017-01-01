@@ -1,8 +1,29 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">¿Qué son los Métodos en Javascript. Definición - Uso - Ejemplos - Video tutorial. Ejemplo: Creación de un Método.</span>
+
+<div class="post-content_next">
+  <a href="http://pandawebs.net/objetos-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>objetos javascript</span>
+  </div>
+  <a href="http://pandawebs.net/constructor-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>constructor javascript</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodos-javascript.md " target="_blank)</strong>
+
 
 # Métodos Javascript
 
 *¿Qué son los Métodos en Javascript? Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](#) [Video tutorial](#)</span>
 
 ==Métodos en javascript son acciones dentro de los objetos.
 Es una función en una propiedad del objeto.==
@@ -83,38 +104,31 @@ Ejemplos:
 
 [*Lista de métodos nativos*](#)
 
-<em>[Editar este artículo](# " target="_blank)</em>
+<hr>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodos-javascript.md " target="_blank)</strong>
 
 <hr>
 <div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/objetos-javascript/">anterior</a>
-    <i>objetos javascript</i>
+  <a href="http://pandawebs.net/objetos-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>objetos javascript</span>
   </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/constructor-de-objetos-javascript">siguiente</a>
-    <i>constructor javascript</i>
-  </div>
+  <a href="http://pandawebs.net/constructor-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>constructor javascript</span>
+    </div>
+  </a>
 </div>
-<hr>
 
-<div id="disqus_thread"></div>
-<script>
+<br>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+**Enlaces relacionados:**
+
+[Constructor de Objetos](http://pandawebs.net/constructor-de-objetos-javascript/)
+
+[Métodos Javascript](#)

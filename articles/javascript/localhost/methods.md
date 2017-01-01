@@ -23,6 +23,8 @@
 
 *¿Qué son los Métodos en Javascript? Definición - Uso - Ejemplos - Video tutorial.*
 
+<span class="links-external">[Repositorio](#) [Video tutorial](#)</span>
+
 ==Métodos en javascript son acciones dentro de los objetos.
 Es una función en una propiedad del objeto.==
 

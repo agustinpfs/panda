@@ -84,7 +84,11 @@ Haciendo click en el botón "Create pull request" queda abierto publicamente a l
 ##2.Desde tu computadora.
 [Video tutorial](youtube.com " target="_blank)
 
-Esta es la forma recomendada ya que nos ayudará a practicar el trabajo y la colaboración con repositorios públicos.
+Se requiere [instalar Git](#).
+
+Se recomienda tener conocimientos básicos de Git y GitHub. [Curso elemental Git y GitHub](#).
+
+Con esta forma de edición de artículos practicarás la colaboración en repositorios públicos ( [pull request](#) ).
 Es fundamental que aprendas este concepto si deseas en algún momento trabajar con un equipo de desarrollo.
 
 
