@@ -84,8 +84,9 @@ console.log(persona["nombre"]);
 **Ejemplo de uso en una Página Web**
 (click en Result para ver el resultado)
 
-<iframe width="100%" height="600" src="https://jsfiddle.net/Pandawebs/4m2rzu8m/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
+<div class="Post-jsfiddle">
+<script async src="https://jsfiddle.net/Pandawebs/4m2rzu8m/embed/html,result/"></script>
+</div>
 <hr>
 
 ==**Nota:**==

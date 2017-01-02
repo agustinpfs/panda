@@ -6,7 +6,7 @@
       <p>anterior</p>
       <span>objetos javascript</span>
   </div>
-  <a href="http://pandawebs.net/constructor-javascript/">
+  <a href="http://pandawebs.net/constructor-de-objetos-javascript/">
     <div class="post-content_next-right">
       <p>siguiente</p>
       <span>constructor javascript</span>
@@ -78,7 +78,7 @@ console.log(persona.nombreCompleto());
 **Ejemplo de uso en una Página Web**
 (click en Result para ver el resultado)
 
-<div>
+<div class="Post-jsfiddle">
 <script async src="https://jsfiddle.net/Pandawebs/tkh92dnf/embed/html,result/"></script>
 </div>
 <hr>
@@ -117,7 +117,7 @@ Ejemplos:
       <p>anterior</p>
       <span>objetos javascript</span>
   </div>
-  <a href="http://pandawebs.net/constructor-javascript/">
+  <a href="http://pandawebs.net/constructor-de-objetos-javascript/">
     <div class="post-content_next-right">
       <p>siguiente</p>
       <span>constructor javascript</span>

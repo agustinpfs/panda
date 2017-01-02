@@ -117,7 +117,10 @@ console.log(miHermano.nombre)
 <hr>
 **Ejemplo de uso en una Página Web**
 (click en Result para ver el resultado)
- <iframe width="100%" height="650" src="https://jsfiddle.net/Pandawebs/s78cn1xk/embedded/html,result/"  allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<div class="Post-jsfiddle">
+ <script async src="https://jsfiddle.net/Pandawebs/s78cn1xk/embed/html,result/"></script>
+</div>
 
 <hr>
 
@@ -128,7 +131,8 @@ console.log(miHermano.nombre)
 <pre data-start="1"><code class="line-numbers language-javascript">
 // Constructor 'alumno' con método 'cambiarNombre':
 
-function alumno(nombre, apellido, año, aula, materia) {this.nombre = nombre;
+function alumno(nombre, apellido, año, aula, materia) {
+    this.nombre = nombre;
     this.apellido = apellido;
     this.aula = aula;
     this.materia = materia;
