@@ -21,6 +21,10 @@
 
 # Constructor de objetos
 
+*Qué son los Constructores de Objetos en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
 ==Es una función que nos servirá para crear muchos objetos a partir de una misma estructura.==
 
 **Ejemplo:** 
@@ -131,7 +135,8 @@ console.log(miHermano.nombre)
 <pre data-start="1"><code class="line-numbers language-javascript">
 // Constructor 'alumno' con método 'cambiarNombre':
 
-function alumno(nombre, apellido, año, aula, materia) {this.nombre = nombre;
+function alumno(nombre, apellido, año, aula, materia) {
+    this.nombre = nombre;
     this.apellido = apellido;
     this.aula = aula;
     this.materia = materia;
@@ -197,6 +202,7 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
 <hr>
 
 <span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+
 <strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/constructor-de-objetos-javascript.md " target="_blank)</strong>
 
 <hr>
@@ -214,25 +220,11 @@ console.log("El mejor promedio es de " + mejorPromedio.nombre + " " + mejorProme
     </div>
   </a>
 </div>
-<hr>
 
-<div id="disqus_thread"></div>
-<script>
+<br>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://pandawebs.net/metodos-javascript/)
+
+[Objetos Javascript](http://pandawebs.net/metodos-javascript/)

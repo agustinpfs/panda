@@ -1,8 +1,33 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método Splice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://pandawebs.net/metodo-split-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método split()</span>
+  </div>
+  <a href="http://pandawebs.net/metodo-slice-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método slice()</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-splice-javascript.md " target="_blank)</strong>
+
 
 # Método Array splice() Javascript.
 
-==El método splice agrega o quita elementos de un array.==
+*Método Splice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
+
+__==El método splice() agrega o quita elementos de un array.==__
 
 *Sintaxis:*
 
@@ -35,11 +60,11 @@ console.log(paisaje);
 
 * En el array original(linea 1):
 
-	* `montaña` -> posisión 0
+  * `montaña` -> posisión 0
 
-	* `río` -> posisión 1
+  * `río` -> posisión 1
 
-	* `cielo` -> posisión 2
+  * `cielo` -> posisión 2
 
 * En la linea 2 `paisaje.splice(2, 1, "mar", "playa")` indicamos: Ir a la posisión _**2**_ (cielo) y eliminar _**1**_ elemento a partir de esa posisión(incluída) que sería cielo. Luego que agrege mar y playa en esa misma posisión.
 
@@ -47,7 +72,7 @@ console.log(paisaje);
 
 **Despejemos dudas agregando conectores al código:**
 
-![alt](http://localhost:2368/assets/images/splice.png)
+![alt](http://pandawebs.net/assets/images/splice.png)
 
 <hr>
 
@@ -100,11 +125,11 @@ A partir de la posisión -1(incluída) son insertados los nuevos elementos(mar y
 <p>"run" para ejecutar. <span class="post-content_console-mark">CAMBIA LOS VALORES PARA PRACTICAR.</span></p>
     
 <div id="my-el" >
-	<script src="https://embed.tonicdev.com" data-element-id="my-el" ></script>       
-	var paisaje = ["montaña", "rio", "cielo", "bosque"];
-	paisaje.splice(2, 0, "mar", "playa");
+  <script src="https://embed.tonicdev.com" data-element-id="my-el" ></script>       
+  var paisaje = ["montaña", "rio", "cielo", "bosque"];
+  paisaje.splice(2, 0, "mar", "playa");
 
-	console.log(paisaje);
+  console.log(paisaje);
 </div>
 
 <span class="post-content_buttonx-console"><small>close</small>x</span>
@@ -120,40 +145,34 @@ A partir de la posisión -1(incluída) son insertados los nuevos elementos(mar y
 
 <hr>
 
-[*Lista de métodos nativos*](#)
+<!-- [*Lista de métodos nativos*](#) -->
 
-<em>[Editar este artículo](#)</em>
+<br>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-splice-javascript.md " target="_blank)</strong>
 
 <hr>
+
 <div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/constructor-de-objetos-javascript">anterior</a>
-    <i>split javascript</i>
+  <a href="http://pandawebs.net/metodo-split-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método split()</span>
   </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/splice-javascript">siguiente</a>
-    <i>slice javascript</i>
-  </div>
+  <a href="http://pandawebs.net/metodo-slice-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método slice()</span>
+    </div>
+  </a>
 </div>
-<hr>
 
-<div id="disqus_thread"></div>
-<script>
+<br>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://pandawebs.net/metodos-javascript/)
+
+[Método slice()](http://pandawebs.net/metodo-splice-javascript/)

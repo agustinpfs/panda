@@ -131,4 +131,4 @@ Ejemplos:
 
 [Constructor de Objetos](http://localhost:2368/constructor-de-objetos-javascript/)
 
-[Métodos Javascript](#)
+[Objetos Javascript](http://localhost:2368/metodos-javascript/)

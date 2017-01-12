@@ -1,8 +1,33 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método Splice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-split-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método split()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-slice-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método slice()</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-splice-javascript.md " target="_blank)</strong>
+
 
 # Método Array splice() Javascript.
 
-==El método splice agrega o quita elementos de un array.==
+*Método Splice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
+
+__==El método splice() agrega o quita elementos de un array.==__
 
 *Sintaxis:*
 
@@ -120,40 +145,34 @@ A partir de la posisión -1(incluída) son insertados los nuevos elementos(mar y
 
 <hr>
 
-[*Lista de métodos nativos*](#)
+<!-- [*Lista de métodos nativos*](#) -->
 
-<em>[Editar este artículo](#)</em>
+<br>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-splice-javascript.md " target="_blank)</strong>
 
 <hr>
+
 <div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/constructor-de-objetos-javascript">anterior</a>
-    <i>split javascript</i>
+  <a href="http://localhost:2368/metodo-split-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método split()</span>
   </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/splice-javascript">siguiente</a>
-    <i>slice javascript</i>
-  </div>
+  <a href="http://localhost:2368/metodo-slice-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método slice()</span>
+    </div>
+  </a>
 </div>
-<hr>
 
-<div id="disqus_thread"></div>
-<script>
+<br>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://localhost:2368/metodos-javascript/)
+
+[Método slice()](http://localhost:2368/metodo-splice-javascript/)
