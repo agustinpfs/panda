@@ -31,7 +31,7 @@ __==El método split() divide un string y las divisiones resultantes pasan a ser
 
 *Sintaxis:*
 
-`array.split(separador,límite)`
+`string.split(separador,límite)`
 
 * El parámetro `separador`(opcional) indica en donde debe hacerse la división, puede ser un caracter(entre comillas) o una [expresión regular(regex)](#).
 
@@ -83,14 +83,17 @@ console.log(resultado);
 <br>
 **Ejemplo de uso en una Página Web**
 (click en Result para ver el resultado)
-<script async src="https://jsfiddle.net/Pandawebs/u3v2zt7a/embed/html,result/">
-</script>
+
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/u3v2zt7a/embed/html,result/">
+  </script>
+</div>
 
 <hr>
 
 <br>
 
-[*Lista de métodos nativos*](#)
+<!-- [*Lista de métodos nativos*](#) -->
 
 <hr>
 

@@ -140,8 +140,10 @@ A partir de la posisión -1(incluída) son insertados los nuevos elementos(mar y
 **Ejemplo de uso en una Página Web**
 (click en Result para ver el resultado)
 
+<div class="Post-jsfiddle">
 <script async src="https://jsfiddle.net/Pandawebs/0s6t6rtg/embed/html,result/">
 </script>
+</div>
 
 <hr>
 

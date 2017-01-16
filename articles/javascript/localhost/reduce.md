@@ -1,19 +1,47 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método reduce() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-slice-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método slice()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-map-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método map()</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-map-javascript.md " target="_blank)</strong>
+
 
 # Método Array reduce() Javascript.
 
-El método Array reduce(), ==reduce todos los valores de un array a un único valor.== Aplica una función que se repite hasta completar la cantidad de elementos del array. 
-reduce() acumula el resultado en el primer parámetro (total)
+*Método reduce() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
+
+El método Array reduce(), __==reduce todos los valores de un array a un único valor.==__ 
+La manera de llegar al único valor lo definiremos en una función que se aplica.
+Dicha función se repetirá por cada valor del array.
+
 
 *Sintaxis:*
 
-`array.reduce(function(total,valorEnCurso), valorInicial)`
+`array.reduce(function(acumulador,valorEnCurso), valorInicial)`
 
-* `total` (requerido) es el valor inicial(en el 1º llamado) y luego el acumulado.
+* `acumulador` (requerido) es el `valorInicial` (en la primera llamada a la función). A partir de la segunda llamada será el acumulado.
 
-* `valorEnCurso` (requerido) el valor del elemento en curso del array .
+* `valorEnCurso` (requerido) el valor del elemento en curso del array.
 
-* `valorInicial` (opcional) es un valor inicial que se tomará como base. Si no lo ponemos el de primer elemento del array.
+* `valorInicial` (opcional) es un valor inicial que se tomará como base. Si no lo ponemos, el valor inicial del acumulador será igual al primer valor del array y el `valorEnCurso` será el segundo.
+
 
 **Ejemplo:**
 
@@ -40,11 +68,11 @@ console.log(resultado);
 
 <!-- end code snippet: -->
 
-* `reduce(sumar)` _**linea7**_ llama a la función sumar _**linea3**_  por cada elemento del array sin contar el primero (3 veces en el ejemplo).
+* `reduce(sumar)` _linea7_ llama a la función sumar _linea3_ hasta completar la suma.
 
-* `num` _**linea3y4**_ irá cambiando entre 4, 5 y 2.
+* `num` _linea3y4_ (valor en curso) irá cambiando entre 4, 5 y 2.
 
-* `total` _**linea3y4**_ arranca por 6 y le siguen los resultado del llamado a la función anterior, (10, 15)
+* `total` _linea3y4_  (acumulador) arranca por 6 y le siguen los resultados del llamado a la función anterior, (10, 15)
 
     * 1º llamado: 6(total) + 4(num)
     * 2º llamado: 10(total) + 5(num)
@@ -52,7 +80,7 @@ console.log(resultado);
 
 **Si queremos que arranque con un valor específico hará un llamado más:**
 
-* En la linea x  agregamos por ejemplo el 2(valor inicial):  `var resultado = numeros.reduce(sumar, 2)`.
+* En la linea 7 agregamos por ejemplo el 2(valor inicial):  `var resultado = numeros.reduce(sumar, 2)`.
 
     * 1º llamado: 2(total) + 6(num)
     * 2º llamado: 8(total) + 4(num)
@@ -73,6 +101,8 @@ var resultado = numeros.reduce(function(total, num) {
 
 console.log(resultado);
 
+// Resultado
+// 17
 
 //------------------------------------------------
 // ver cómo Gist en Github  -->> https://gist.github.com/agustinpfs/c680ba08fb881e26984d6579a8d11d2f
@@ -158,84 +188,42 @@ console.log(resultado);
 **Ejemplo Uso de Array reduce() en Página Web.**
 (click en Result para ver el resultado)
 
-<script async src="https://jsfiddle.net/Pandawebs/qzmcyat1/embed/html,result/">
-</script>
-
-<!-- Código del fiddle:
-
-<!DOCTYPE html>
-<html>
-  <body>
-  
-    <p>Promedios</p>
-    
-    <ul>
-      <li>2.3</li>
-      <li>5.5</li>
-      <li>4.7</li>
-      <li>6.2</li>
-    </ul>
-    
-    <button onclick="miFuncion()">Sumar notas como enteros</button>
-
-    <p id="demo"></p>
-
-    <script>
-      var numeros = [6.2, 4.7, 5.5, 2.3];
-
-      function sumar(total, num) {
-        return total + Math.round(num);
-      }
-
-      function miFuncion() {
-
-        var resultado = numeros.reduce(sumar, 0)
-        document.getElementById("demo").innerHTML = resultado;
-      }
-
-    </script>
-
-  </body>
-</html>
-
--->
-
-<hr>
-
-[*Lista de métodos nativos*](#)
-
-<em>[Editar este artículo](#)</em>
-
-<hr>
-<div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/slice-javascript">anterior</a>
-    <i>slice javascript</i>
-  </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/map-javascript">siguiente</a>
-    <i>map javascript</i>
-  </div>
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/qzmcyat1/embed/html,result/">
+  </script>
 </div>
+
+
 <hr>
 
-<div id="disqus_thread"></div>
-<script>
+<!-- [*Lista de métodos nativos*](#) -->
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<br>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-map-javascript.md " target="_blank)</strong>
+
+<hr>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-slice-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método slice()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-map-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método map()</span>
+    </div>
+  </a>
+</div>
+
+<br>
+
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://localhost:2368/metodos-javascript/)
+
+[Método splice()](http://localhost:2368/metodo-splice-javascript/)

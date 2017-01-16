@@ -1,6 +1,31 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método Slice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-splice-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método splice()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-reduce-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método reduce()</span>
+    </div>
+  </a>
+</div>
+
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-slice-javascript.md " target="_blank)</strong>
+
 
 # Método slice() Javascript.
+
+*Método slice() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
 
 Este método existe tanto para el Objeto Array como para el [Objeto String](#).
 
@@ -160,47 +185,41 @@ console.log(resultado);
 **Ejemplo Uso de String slice() en Página Web.**
 (click en Result para ver el resultado)
 
-<!-- <iframe width="100%" height="500" src="https://jsfiddle.net/Pandawebs/La8o9xxm/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
- -->
-<script async src="https://jsfiddle.net/Pandawebs/La8o9xxm/embed/html,result/">
-</script>
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/La8o9xxm/embed/html,result/">
+  </script>
+</div>
 
 <br>
 
-[*Lista de métodos nativos*](#)
+<!-- [*Lista de métodos nativos*](#) -->
 
-<em>[Editar este artículo](#)</em>
+<br>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-slice-javascript.md " target="_blank)</strong>
 
 <hr>
+
 <div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/splice-javascript">anterior</a>
-    <i>splice javascript</i>
+  <a href="http://localhost:2368/metodo-splice-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método splice()</span>
   </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/reduce-javascript">siguiente</a>
-    <i>reduce javascript</i>
-  </div>
+  <a href="http://localhost:2368/metodo-reduce-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método reduce()</span>
+    </div>
+  </a>
 </div>
-<hr>
 
-<div id="disqus_thread"></div>
-<script>
+<br>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://localhost:2368/metodos-javascript/)
+
+[Método splice()](http://localhost:2368/metodo-splice-javascript/)
