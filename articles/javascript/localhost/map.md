@@ -1,17 +1,64 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método map() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-reduce-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método reduce()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-join-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método join()</span>
+    </div>
+  </a>
+</div>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-join-javascript.md " target="_blank)</strong>
 
 # Método Array map() Javascript.
 
-==El metodo map llama a una función por cada elemento de un array.==
+*Método Split() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
+
+__==El metodo map() llama a una función por cada elemento de un array. 
+Se crea un nuevo array con los resultados de cada llamado.==__
 
 *Sintaxis:*
 
-array.map(function(currentValue,index,arr), thisValue)
-http://www.w3schools.com/jsref/jsref_map.asp
+`array.map(función, valorThis)`
+
+* `función` Produce cada elemento del nuevo array.
+
+* `valorThis` Si la función utiliza la palabra clave *this* será reemplazada por este valor.
+
+**La función recibe tres parámetros**
+
+Entonces la sintaxis completa sería:
+
+`array.map(function(valorEnCurso,index,arr), valorThis)`
+
+* `valorEnCurso` el valor del elemento en curso del array.
+
+* `index` el índice. El número de la posisión en curso del array.
+
+* `arr` el array completo con el que está trabajando `map`.
+
+> En este artículo nos limitaremos a trabajar con los siguientes argumentos ya que son éstos los más importantes y utilizados:
+
+`array.map(function(valorEnCurso))`
+
+>Igualmente al final del [video tutorial](#)
+vemos algunos ejemplos para que sepan cómo trabajan el resto de los argumentos.
+A futuro los agregaremos a este artículo o crearemos uno nuevo sobre el uso de todos los argumentos del método `map`.
 
 **Ejemplo:**
 
-El metodo map crea un nuevo array *`dobles`* a partir de los resultados de una funcion que toma como argumento *`(num)`* por cada uno de los elementos de array original dado *`[1, 4, 9]`*.
+El metodo map crea un nuevo array *`dobles`* a partir de los resultados de una funcion que toma como argumento *`(num)`* por cada elemento del array original *`[1, 4, 9]`*.
 
 <!-- start code snippet: -->
 
@@ -139,8 +186,10 @@ console.log(plural);
 **Ejemplo Uso de Array map() en Página Web.**
 (click en Result para ver el resultado)
 
-<script async src="https://jsfiddle.net/Pandawebs/xzpjbd0w/embed/html,result/">
-</script>
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/xzpjbd0w/embed/html,result/">
+  </script>
+</div>
 
 <br>
 
@@ -174,46 +223,43 @@ console.log(nombreYedad);
 
 **En una Página web:**
 
-<script async src="https://jsfiddle.net/Pandawebs/Luaaa7u7/embed/html,result/">
-</script>
-
-<hr>
-
-[*Lista de métodos nativos*](#)
-
-<em>[Editar este artículo](#)</em>
-
-<hr>
-<div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/reduce-javascript">anterior</a>
-    <i>reduce javascript</i>
-  </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/join-javascript">siguiente</a>
-    <i>join javascript</i>
-  </div>
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/Luaaa7u7/embed/html,result/">
+  </script>
 </div>
+
 <hr>
 
-<div id="disqus_thread"></div>
-<script>
+<!-- [*Lista de métodos nativos*](#) -->
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<br>
 
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-map-javascript.md " target="_blank)</strong>
+
+<hr>
+
+<div class="post-content_next">
+  <a href="http://localhost:2368/metodo-reduce-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método reduce()</span>
+  </div>
+  <a href="http://localhost:2368/metodo-join-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método join()</span>
+    </div>
+  </a>
+</div>
+
+<br>
+
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://localhost:2368/metodos-javascript/)
+
+[Método reduce()](http://localhost:2368/metodo-reduce-javascript/)

@@ -1,8 +1,31 @@
-<em>[Editar este artículo](# " target="_blank)</em>
+<span class="hidden-excerpt">Método join() en Javascript. Definición - Uso - Ejemplos - Video tutorial.</span>
+
+<div class="post-content_next">
+  <a href="http://pandawebs.net/metodo-map-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método map()</span>
+  </div>
+  <a href="http://pandawebs.net/metodo-replace-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método replace()</span>
+    </div>
+  </a>
+</div>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-join-javascript.md " target="_blank)</strong>
 
 # Método Array join() Javascript.
 
-==Une cada elemento del array en nuevo string separados por el o los caracteres que le indiquemos.==
+*Método join() en Javascript. Definición - Uso - Ejemplos - Video tutorial.*
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<hr>
+
+__==Une cada elemento de un array en un nuevo string, separados por el o los caracteres que le indiquemos.==__
 
 **Sintaxis:**
 `array.join(separator)`
@@ -81,71 +104,43 @@ console.log(res);
 **Ejemplo Uso de Array join() en Página Web.**
 (click en Result para ver el resultado)
 
-<!-- jsfiddle: -->
-<script async src="https://jsfiddle.net/Pandawebs/n1dt1d27/embed/html,result/">
-</script>
-
-<!-- Código del jsfiddle:
-
-<!DOCTYPE html>
-<html>
-  <body>
-
-    <p id="demo">ombú, palmera, pino, algarrobo</p>
-
-    <button onclick="miFuncion()">Separar con guiones</button>
-
-
-    <script>
-      function miFuncion() {
-        var arboles = ["ombú", "palmera", "pino", "algarrobo"];
-        var x = document.getElementById("demo");
-        x.innerHTML = arboles.join(" - ");
-      }
-
-    </script>
-
-  </body>
-</html>
-
--->
-
-<hr>
-
-[*Lista de métodos nativos*](#)
-
-<em>[Editar este artículo](#)</em>
-
-<hr>
-<div class="post-content_next">
-  <div class="post-content_next-left">
-    <a href="http://localhost:2368/map-javascript">anterior</a>
-    <i>map javascript</i>
-  </div>
-  <div class="post-content_next-right">
-    <a href="http://localhost:2368/replace-javascript">siguiente</a>
-    <i>replace javascript</i>
-  </div>
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/n1dt1d27/embed/html,result/">
+  </script>
 </div>
+
 <hr>
 
-<div id="disqus_thread"></div>
-<script>
+<!-- [*Lista de métodos nativos*](#) -->
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//pandawebs.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<br>
+
+<span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://pandawebs.net/tutoriales-javascript/)</span>
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video tutorial](youtube.com " target="_blank)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-join-javascript.md " target="_blank)</strong>
+
+<hr>
+
+<div class="post-content_next">
+  <a href="http://pandawebs.net/metodo-map-javascript/">
+    <div class="post-content_next-left">
+      <p>anterior</p>
+      <span>método map()</span>
+  </div>
+  <a href="http://pandawebs.net/metodo-replace-javascript/">
+    <div class="post-content_next-right">
+      <p>siguiente</p>
+      <span>método replace()</span>
+    </div>
+  </a>
+</div>
+
+<br>
+
+**Enlaces relacionados:**
+
+[Métodos Javascript](http://pandawebs.net/metodos-javascript/)
+
+[Método reduce()](http://pandawebs.net/metodo-split-javascript/)

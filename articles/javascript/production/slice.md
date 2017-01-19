@@ -136,10 +136,10 @@ console.log(citricos);
 **Ejemplo Uso de Array slice() en Página Web.**
 (click en Result para ver el resultado)
 
-<script async src="https://jsfiddle.net/Pandawebs/deseevm6/embed/html,result/">
-</script>
-
-<!-- <iframe width="100%" height="650" src="https://jsfiddle.net/Pandawebs/deseevm6/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe> -->
+<div class="Post-jsfiddle">
+  <script async src="https://jsfiddle.net/Pandawebs/deseevm6/embed/html,result/">
+  </script>
+</div>
 
 <hr>
 

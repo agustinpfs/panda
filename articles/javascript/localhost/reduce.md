@@ -16,7 +16,7 @@
 
 
 <span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-map-javascript.md " target="_blank)</strong>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-reduce-javascript.md " target="_blank)</strong>
 
 
 # Método Array reduce() Javascript.
@@ -202,7 +202,7 @@ console.log(resultado);
 
 <span class="link-to-index-git">Tutoriales Javascript. [ ver índice](http://localhost:2368/tutoriales-javascript/)</span>
 
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-map-javascript.md " target="_blank)</strong>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/tutoriales-javascript/edit/master/metodo-reduce-javascript.md " target="_blank)</strong>
 
 <hr>
 
