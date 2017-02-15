@@ -5,10 +5,10 @@
     <a href=""></a>
     <i>.</i>
   </div>
-  <a href="http://localhost:2368/consideraciones-generales">
+  <a href="http://localhost:2368/consideraciones-preliminares">
   <div class="post-content_next-right">
     <p>siguiente</p>
-    <span>Consideraciones generales</span></a>
+    <span>Consideraciones preliminares</span></a>
   </div>
 </div>
 
