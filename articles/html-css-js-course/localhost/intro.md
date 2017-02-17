@@ -1,5 +1,10 @@
 <span class="hidden-excerpt">Introducción al Curso Práctico de Html Css y Javascript. Objetivos - A quién va dirijido - Qué vamos a aprender - Habilidades a desarrollar.</span>
 
+<span class="link-to-index-git">Curso Práctico de Html, Css y JavaScript. [ Índice del curso](http://localhost:2368/curso-html-css-js/)</span>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/intro.md " target="_blank)</strong>
+
+<hr>
+
 <div class="post-content_next">
   <div style="visibility: hidden" class="post-content_next-left">
     <a href=""></a>
@@ -12,10 +17,8 @@
   </div>
 </div>
 
-<span class="link-to-index-git">Curso Html - Css - JS. [ ver índice](http://localhost:2368/curso-html-css-js/)</span>
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/intro.md " target="_blank)</strong>
 
-# Introducción al Curso Práctico de Html Css y Javascript
+# Introducción
 *Objetivo general - A quién va dirijido - Qué vamos a aprender - Habilidades a desarrollar.*
 
 <span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video ](youtube.com " target="_blank)</span>
@@ -29,7 +32,7 @@ Adquirir la habilidad de crear un sitio web interactivo desde cero, adaptable a 
 A todo el mundo que quiera aprender o reforzar sus conocimientos sobre el desarrollo de un sitio web.
 
 ##Temas generales a aprender.
-Aprenderemos todo lo relacionado para crear [el siguiente sitio web](https://agustinpfs.github.io/html-course-PW/).
+Aprenderemos todo lo relacionado para crear [el siguiente sitio web](https://agustinpfs.github.io/html-course-PW/ " target="_blank).
 
 - **Html:** Estructura, etiquetas, semántica.
 
@@ -52,7 +55,7 @@ Razonar y entender el código dotará la capacidad al estudiante de manipular lo
 <br>
 
 Más información en el [video ](youtube.com " target="_blank)
-*En el próximo artículo veremos las consideraciones generales para que tengas una buena experiencia en tu aprendizaje.*
+*En el próximo artículo veremos las consideraciones generales para que tengas una buena experiencia durante tu aprendizaje.*
 
 
 
@@ -61,24 +64,30 @@ Más información en el [video ](youtube.com " target="_blank)
 
 <!-- Inicio links índice y github -->
 
-<span class="link-to-index-git">Curso Html - Css - JS. [ ver índice](http://localhost:2368/curso-html-css-js/)</span>
 
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/intro.md " target="_blank)</strong>
 
 <!-- Fin links índice y github -->
 
-<a class="post-content-button">Video</a>
-<hr>
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video ](youtube.com " target="_blank)</span>
+
+
 <div class="post-content_next">
   <div style="visibility: hidden" class="post-content_next-left">
     <a href=""></a>
     <i>.</i>
   </div>
-  <a href="http://localhost:2368/consideraciones-generales">
+  <a href="http://localhost:2368/consideraciones-preliminares">
   <div class="post-content_next-right">
     <p>siguiente</p>
-    <span>Consideraciones generales</span></a>
+    <span>Consideraciones preliminares</span></a>
   </div>
 </div>
+
 <br>
+
+<span class="link-to-index-git">Curso Práctico de Html, Css y JavaScript. [ Índice del curso](http://localhost:2368/curso-html-css-js/)</span>
+
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/intro.md " target="_blank)</strong>
+
+
 
