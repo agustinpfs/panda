@@ -62,11 +62,6 @@ Más información en el [video ](youtube.com " target="_blank)
 
 <hr>
 
-<!-- Inicio links índice y github -->
-
-
-
-<!-- Fin links índice y github -->
 
 <span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video ](youtube.com " target="_blank)</span>
 

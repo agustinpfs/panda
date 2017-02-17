@@ -73,6 +73,11 @@ Crea un wirefreme del sitio que vayas a hacer. Hazlo a partir de [nuestro sitio 
 
 ==**_Involucrate, comparte, ayuda, investiga en Internet, aporta tus conocimientos. Recuerda que tu beneficio es el beneficio de todos. Nuestro anhelo es que este curso nos aporte valor a lo que somos y sirva para ser mejores profesionales, profesores, estudiantes y personas._**==
 
+<br>
+
+<span class="links-external">[Repositorio](https://github.com/Pandawebs/Tutoriales-Javascript " target="_blank) [Video ](youtube.com " target="_blank)</span>
+
+<hr>
 
 <div class="post-content_next">
   <a href="http://pandawebs.net/consideraciones-preliminares/">
