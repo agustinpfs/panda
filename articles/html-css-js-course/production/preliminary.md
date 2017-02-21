@@ -11,10 +11,10 @@
       <p>anterior</p>
       <span>introducción al curso</span>
   </div>
-  <a href="http://pandawebs.net/wireframe/">
+  <a href="http://pandawebs.net/wireframes/">
     <div class="post-content_next-right">
       <p>siguiente</p>
-      <span>wireframe</span>
+      <span>wireframes</span>
     </div>
   </a>
 </div>
@@ -73,10 +73,10 @@ Ten en cuenta que sin el trabajo de un caso real no tiene ningún sentido de que
       <p>anterior</p>
       <span>introducción al curso</span>
   </div>
-  <a href="http://pandawebs.net/wireframe/">
+  <a href="http://pandawebs.net/wireframes/">
     <div class="post-content_next-right">
       <p>siguiente</p>
-      <span>wireframe</span>
+      <span>wireframes</span>
     </div>
   </a>
 </div>

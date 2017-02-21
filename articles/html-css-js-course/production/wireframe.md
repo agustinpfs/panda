@@ -1,7 +1,6 @@
 <span class="hidden-excerpt">Qué es un wirefreme. Diferencia con mockup. Maneras de hacerlo.</span>
 
 <span class="link-to-index-git">Curso Práctico de Html, Css y JavaScript. [ ver índice](http://pandawebs.net/curso-html-css-js/)</span>
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/wireframes.md " target="_blank)</strong>
 
 <hr>
 
@@ -19,8 +18,7 @@
   </a>
 </div>
 
-
-
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/course-html-css-js/edit/master/articles/wireframes.md " target="_blank)</strong>
 
 #Wireframes
 
@@ -97,4 +95,4 @@ Crea un wirefreme del sitio que vayas a hacer. Hazlo a partir de [nuestro sitio 
 
 <span class="link-to-index-git">Curso Práctico de Html, Css y JavaScript. [ ver índice](http://pandawebs.net/curso-html-css-js/)</span>
 
-<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/curso-html-css-js/edit/master/articles/wireframes.md " target="_blank)</strong>
+<strong class="link-to-github">[Editar este artículo](https://github.com/Pandawebs/course-html-css-js/edit/master/articles/wireframes.md " target="_blank)</strong>
